@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="recurring_frequency" table="x_1083337_eat_order_menus" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recurring_frequency</element>
+            <name>x_1083337_eat_order_menus</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>recurring_frequency</sys_name>
+            <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+            <sys_update_name>sys_choice_x_1083337_eat_order_menus_recurring_frequency</sys_update_name>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Daily</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff4198c8977f251080e3fef3a253af86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>daily</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weekly</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b34198c8977f251080e3fef3a253af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>weekly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Every 2 Weeks</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb4198c8977f251080e3fef3a253af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>weekly2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>374198c8977f251080e3fef3a253af8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>monthly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Every 2 Months</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f4198c8977f251080e3fef3a253af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>monthly2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quarterly</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b74198c8977f251080e3fef3a253af94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>quarterly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semi-Annual</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff4198c8977f251080e3fef3a253af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>semiannual</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Annually</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_menus</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-06-27 23:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b4198c8977f251080e3fef3a253af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-06-27 23:16:27</sys_updated_on>
+            <value>yearly</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

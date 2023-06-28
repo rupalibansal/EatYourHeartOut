@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>cvv</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-06-27 15:24:19</sys_created_on>
+        <sys_id>13f4a2fb97e7251080e3fef3a253af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cvv</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_13f4a2fb97e7251080e3fef3a253af3a</sys_update_name>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-06-27 15:24:19</sys_updated_on>
+        <table>x_1083337_eat_ordering_system</table>
+        <ui_policy display_value="Make the  CVV Visible (Payment Method- Card)">89f46e7797e7251080e3fef3a253afc3</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

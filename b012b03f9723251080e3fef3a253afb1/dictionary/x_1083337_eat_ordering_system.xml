@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7c13f0ff9723251080e3fef3a253afa5" extends="task" label="Order Request" max_length="40" name="x_1083337_eat_ordering_system" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Card Name" max_length="40" name="card_name" type="string"/>
+        <element label="Card Number" max_length="40" name="card_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Email" mandatory="true" max_length="40" name="customer_email" type="string"/>
+        <element label="Customer Mobile" max_length="40" name="customer_mobile" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element label="CVV" max_length="40" name="cvv" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Address" max_length="150" name="delivery_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Delivery Type" mandatory="true" max_length="40" name="delivery_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pickup" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Delivery" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Number" max_length="40" name="expiration_number" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Menu Item" mandatory="true" max_length="32" name="menu_item" reference="x_1083337_eat_order_menus" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Payment Method" mandatory="true" max_length="40" name="payment_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cash" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Card" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Price" max_length="40" name="price" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Pick Up Location" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>

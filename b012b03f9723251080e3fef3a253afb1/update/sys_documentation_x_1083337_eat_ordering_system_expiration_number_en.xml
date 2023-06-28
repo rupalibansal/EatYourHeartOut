@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="expiration_number" label="Expiration Number" language="en" table="x_1083337_eat_ordering_system">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>expiration_number</element>
+            <help/>
+            <hint/>
+            <label>Expiration Number</label>
+            <language>en</language>
+            <name>x_1083337_eat_ordering_system</name>
+            <plural>Expiration Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rupali.bansal</sys_created_by>
+            <sys_created_on>2023-06-27 11:55:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Expiration Number</sys_name>
+            <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+            <sys_update_name>sys_documentation_x_1083337_eat_ordering_system_expiration_number_en</sys_update_name>
+            <sys_updated_by>rupali.bansal</sys_updated_by>
+            <sys_updated_on>2023-06-27 11:55:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

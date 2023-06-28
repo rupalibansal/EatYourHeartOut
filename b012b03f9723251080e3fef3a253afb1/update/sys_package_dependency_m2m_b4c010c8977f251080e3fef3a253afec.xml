@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">d2fc040b24b021108c8bc6863d3fadd0</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-27 23:14:04</sys_created_on>
+        <sys_id>b4c010c8977f251080e3fef3a253afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-27 23:14:04</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
