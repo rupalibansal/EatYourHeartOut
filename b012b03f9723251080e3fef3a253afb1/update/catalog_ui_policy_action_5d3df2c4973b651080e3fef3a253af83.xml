@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Copy of Cloud Kitchen">603d7e84973b651080e3fef3a253afb0</catalog_item>
+        <catalog_variable>IO:cd3df2c4973b651080e3fef3a253af26</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-28 11:47:29</sys_created_on>
+        <sys_id>5d3df2c4973b651080e3fef3a253af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delivery_info</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5d3df2c4973b651080e3fef3a253af83</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-28 11:47:29</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'delivery_info' visible &amp; read-only depending on 'delivery_type'">153df2c4973b651080e3fef3a253af81</ui_policy>
+        <variable>delivery_info</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
