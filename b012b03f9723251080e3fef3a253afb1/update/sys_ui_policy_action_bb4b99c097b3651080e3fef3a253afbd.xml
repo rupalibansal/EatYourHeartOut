@@ -6,18 +6,18 @@
         <mandatory>false</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>rupali.bansal</sys_created_by>
-        <sys_created_on>2023-06-27 14:40:30</sys_created_on>
-        <sys_id>a6ca127397e7251080e3fef3a253afdd</sys_id>
+        <sys_created_on>2023-06-28 04:40:05</sys_created_on>
+        <sys_id>bb4b99c097b3651080e3fef3a253afbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>delivery_address</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_update_name>sys_ui_policy_action_a6ca127397e7251080e3fef3a253afdd</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_bb4b99c097b3651080e3fef3a253afbd</sys_update_name>
         <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:40:30</sys_updated_on>
+        <sys_updated_on>2023-06-28 04:40:05</sys_updated_on>
         <table>x_1083337_eat_ordering_system</table>
-        <ui_policy display_value="Make the Location Visible (Delivery Type- Pickup)">bdd716bf97a7251080e3fef3a253af4a</ui_policy>
+        <ui_policy display_value="Make the Store Location Visible (Delivery Type- Pickup)">fc4b15c097b3651080e3fef3a253af21</ui_policy>
         <visible>false</visible>
     </sys_ui_policy_action>
 </record_update>

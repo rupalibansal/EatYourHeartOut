@@ -15,13 +15,17 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Expiration Number" max_length="40" name="expiration_number" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Menu Item" mandatory="true" max_length="32" name="menu_item" reference="x_1083337_eat_order_menus" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Order Received" max_length="40" name="order_received" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Payment Method" mandatory="true" max_length="40" name="payment_method" type="string">
             <choice>
                 <element inactive_on_update="false" label="Cash" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Card" sequence="1" value="2"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Pick up Location" max_length="100" name="pickup_location" type="string"/>
         <element label="Price" max_length="40" name="price" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Store Location" max_length="100" name="store_location_pickup" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="test field" max_length="100" name="test_field" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Pick Up Location" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>

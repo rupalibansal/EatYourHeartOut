@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Store Pick Location as "75 CS Square, Caroline Springs VIC 1111"</description>
+        <field>delivery_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Pick Up Location.</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+
+    if (g_form.getValue('delivery_type') === '1') {
+		//alert(g_form.getValue('delivery_type'));
+        g_form.setValue('store_location_pickup', '75 Square,Caroline Springs VIC 1111');
+        g_form.setReadOnly('store_location_pickup', true);
+    }
+
+
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-06-28 04:31:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>96e4910c9773651080e3fef3a253af73</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Set Pick Up Location.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sys_script_client_96e4910c9773651080e3fef3a253af73</sys_update_name>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-06-28 05:45:36</sys_updated_on>
+        <table>x_1083337_eat_ordering_system</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
