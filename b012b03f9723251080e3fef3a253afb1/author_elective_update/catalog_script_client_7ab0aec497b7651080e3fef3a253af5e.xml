@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</cat_item>
+        <cat_variable>IO:1c18d9cc9773651080e3fef3a253af53</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Eat OnChange - Assign Price </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    alert(menu_item);
+	
+    g_form.getReference('menu_item', getMenuPrice);
+}
+
+function getMenuPrice(orderMenuItem) {
+    alert(orderMenuItem.name + '' + orderMenuItem.price);
+
+    var priceVal = orderMenuItem.price;	
+    g_form.setValue('orderPrice', priceVal);
+	
+//     g_form.setValue('orderPrice',  orderMenuItem.price);
+	
+}
+
+
+
+]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-28 10:23:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ab0aec497b7651080e3fef3a253af5e</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Eat OnChange - Assign Price </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>catalog_script_client_7ab0aec497b7651080e3fef3a253af5e</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-29 00:24:55</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>catalog_script_client_7ab0aec497b7651080e3fef3a253af5e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;true&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Cloud Kitchen"&gt;21d5914c9773651080e3fef3a253af0c&lt;/cat_item&gt;&lt;cat_variable&gt;IO:1c18d9cc9773651080e3fef3a253af53&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Eat OnChange - Assign Price &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    alert(menu_item);
+	
+    g_form.getReference('menu_item', getMenuPrice);
+}
+
+function getMenuPrice(orderMenuItem) {
+    alert(orderMenuItem.name + '' + orderMenuItem.price);
+
+    var priceVal = orderMenuItem.price;	
+    g_form.setValue('orderPrice', priceVal);
+	
+//     g_form.setValue('orderPrice',  orderMenuItem.price);
+	
+}
+
+
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-28 10:23:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7ab0aec497b7651080e3fef3a253af5e&lt;/sys_id&gt;&lt;sys_mod_count&gt;37&lt;/sys_mod_count&gt;&lt;sys_name&gt;Eat OnChange - Assign Price &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_7ab0aec497b7651080e3fef3a253af5e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-29 00:24:55&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-970763392</payload_hash>
+        <record_name>Eat OnChange - Assign Price </record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-29 00:24:55</sys_created_on>
+        <sys_id>649ae9dc97b3a51080e3fef3a253afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890489ee1b0000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-29 00:24:55</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>289a699c9cb3a510222a50306c0dccba</update_guid>
+        <update_guid_history>289a699c9cb3a510222a50306c0dccba:-970763392,d64ae5dcefb3a510a10c42f7cf65b757:-1908502059,0f78e55c75b3a510cc734e6a809deaf8:1033698331,4b68651c95b3a510b6d7d29ce40aacb7:-1558139370,5fd76d1c4cb3a51036642d618853fe6b:-1834201988,a4a76d1cd9b3a510780130738b28a406:720956361,cf67691c17b3a510e0013219a59f9c5f:331237057,9e27a11cabb3a510d2432e435afcd903:572546791,45f6211c2db3a510422c1f57d5734afb:1503476062,83a629d87bb3a510d37915b5b026c94d:-1038623811,3c56e1d82eb3a51077b59f37654b3f7a:-424952213,41f5e59884b3a5101ffd8d33f963a41c:261547542,bec529981bb3a510ac6d621397c31246:921499138,59a5659898b3a510fec04e2d182ef51c:-19777877,ab85659893b3a5102c7a57982bed9c63:-1810485014,cd55655847b3a510c0eb85ee068d7c6c:465713917,68c4a158b4b3a510bc3426adcb3fe374:-376828145,5673edd4f6b3a510e297140c531bbb62:-115721123,4333e994e6b3a5102c4c972106364d0d:266110883,21422994a1b3a510bc234194ef943abd:-216235079,8c32299411b3a5107fd34455a3da917f:637190874,f50161542bb3a510c094c240765ce254:-1840789140,57bd9550ccb3a5103e050c79ede42b0c:-96290892,3dcc5d10a2b3a51003d39a6a479917b7:949065874,6f7fba48853b6510bbeb965926996e65:-934639755,34cdfe848a3b65104549e51624971401:-972108141,a01bf6c0073b6510c7ee20d2b21b8c0b:1874256895,d51fae84c9f765105f7e0cdd70875f92:643711062,ffbe2e8463f7651077a1f1678b48921a:-1241795601,0dbe22c413f76510a895d3565e46bbe0:-1329017064,268ea284aff76510d3c181c018edd039:1474505706,946ea284bff76510693859b81866e9c4:-1329017064,f4edee4469f76510a3fe8615bae7bc57:1507903141,9bbcaec032f765100e5e1be84d52c787:-854048421,f1aa268041f76510b2643d5365d57487:-1653614253,865a264082f765104011b3eeb84eb0be:-696778949,e71aea402af7651062a5d548b6048319:-1622021278,7e0a6e40ccf76510cb99c64844a31fb4:-772169791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Eat OnChange - Assign Price ">e18ca15097f3a51080e3fef3a253afab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-29 00:33:27</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>011f2edd2f454193819217039725db41</sys_id>
+        <sys_metadata>7ab0aec497b7651080e3fef3a253af5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Eat OnChange - Assign Price </sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>catalog_script_client_7ab0aec497b7651080e3fef3a253af5e</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_7ab0aec497b7651080e3fef3a253af5e">649ae9dc97b3a51080e3fef3a253afc1</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-29 00:33:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

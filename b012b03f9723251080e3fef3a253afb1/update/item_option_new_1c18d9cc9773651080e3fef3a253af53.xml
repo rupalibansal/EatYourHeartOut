@@ -32,14 +32,14 @@
         <lookup_price/>
         <lookup_table>x_1083337_eat_order_menus</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>name</lookup_value>
+        <lookup_value>sys_id</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>menu_item</name>
+        <name>orderMenuItem</name>
         <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -75,14 +75,14 @@
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-06-28 04:30:34</sys_created_on>
         <sys_id>1c18d9cc9773651080e3fef3a253af53</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>What do you want to order?</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>item_option_new_1c18d9cc9773651080e3fef3a253af53</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-28 11:00:41</sys_updated_on>
+        <sys_updated_on>2023-06-29 04:04:35</sys_updated_on>
         <table/>
         <tooltip/>
         <type>18</type>

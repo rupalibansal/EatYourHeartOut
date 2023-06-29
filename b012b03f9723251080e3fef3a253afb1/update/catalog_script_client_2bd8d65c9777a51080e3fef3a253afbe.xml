@@ -8,47 +8,57 @@
         <applies_target_record>true</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</cat_item>
-        <cat_variable>IO:1c18d9cc9773651080e3fef3a253af53</cat_variable>
+        <cat_variable>IO:e655a29897b7a51080e3fef3a253af71</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Eat OnChange - Assign Price </name>
+        <name>Get price</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
     if (isLoading || newValue == '') {
         return;
     }
-	
-// 	var menuItemSysID =  g_form.getValue('menu_item');
-	
-//     var menuPrice = new GlideRecord('menu_item');
-//     menuPrice.addQuery('price', menuItemSysID);
-//     menuPrice.query();
 
-//     while (menuPrice.next()) {
-// 		g_form.setValue('orderPrice',menuPrice.price);
-//     }
+    var msg = 'hello! ';
+    alert(msg);
+
+    g_form.getReference('orderedItemRef', setPrice); //TEST Item this works but lookup - for reference so this is correct	
+	//g_form.getReference('orderMenuItem', setPrice); //This is Dropdown, we can't use REFERENCE here
 	
-// 	g_form.showFieldMsg('orderPrice',menuItemSysID);
+}
+
+/*This works if you're using a Reference Question but not on DropDown */
+function setPrice(comboItem) { // reference is passed into callback as first arguments
+
+    // 	if (selectedMenu.getValue('price') == 'true') {
+    //       alert('found! ' + selectedMenu + selectedMenu.name + selectedMenu.price);
+    //    }
+    alert('called???');
+
+    var priceVal = comboItem.price;
+    var spMsg = ' last found! ' + comboItem + ' ' + comboItem.name + ' ' + comboItem.price;
+    alert(spMsg);
+
+    g_form.setValue('orderPrice', priceVal);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-06-28 10:23:45</sys_created_on>
+        <sys_created_on>2023-06-29 03:48:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7ab0aec497b7651080e3fef3a253af5e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Eat OnChange - Assign Price </sys_name>
+        <sys_id>2bd8d65c9777a51080e3fef3a253afbe</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Get price</sys_name>
         <sys_overrides/>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_update_name>catalog_script_client_7ab0aec497b7651080e3fef3a253af5e</sys_update_name>
+        <sys_update_name>catalog_script_client_2bd8d65c9777a51080e3fef3a253afbe</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-28 11:57:28</sys_updated_on>
+        <sys_updated_on>2023-06-29 04:59:33</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

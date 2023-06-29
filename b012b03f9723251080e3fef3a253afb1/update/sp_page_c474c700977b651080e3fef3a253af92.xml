@@ -14,7 +14,7 @@
 }
 
 section.page {
-  background-image: url('la_jolla_sp_login_background.png');
+  background-image: url('x_1083337_eat.eat_background2.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,26 +27,26 @@ section.page main.body:before {
   opacity: 0.75;
 }</css>
         <draft>false</draft>
-        <dynamic_title_structure/>
+        <dynamic_title_structure>We opened our doors with one goal in mind: Better Pizza</dynamic_title_structure>
         <id>eat_landing</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>true</public>
         <roles/>
-        <seo_script/>
-        <short_description/>
+        <seo_script display_value="SPSEOHeaderTags">f060f7b377011010d81e7811a91061e3</seo_script>
+        <short_description>We opened our doors with one goal in mind: Better Pizza</short_description>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-06-28 12:19:05</sys_created_on>
         <sys_id>c474c700977b651080e3fef3a253af92</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>eat_landing</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sp_page_c474c700977b651080e3fef3a253af92</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-28 12:20:28</sys_updated_on>
+        <sys_updated_on>2023-06-29 05:16:51</sys_updated_on>
         <title>Eat Your Heart Out</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
