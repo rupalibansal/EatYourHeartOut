@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Validate the correct email adress has been input by the user.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Email And Phone Number</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+	
+	function resetErrorMessages() {
+		g_form.hideFieldMsg('customer_email');
+		g_form.hideFieldMsg('customer_phone');
+	}
+	resetErrorMessages();
+
+    var newEmail = g_form.getValue('customer_email');
+    var phoneNumber = g_form.getValue('customer_phone');
+
+    var emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    var phoneRegex = /^0[2-4|7-8]{1}\d{8}$/;
+
+    var isEmailValid= true, isPhoneNumberValid = true;
+	
+    if (!emailRegex.test(newEmail)) {
+        g_form.showFieldMsg('customer_email', 'Please enter a valid email address', 'error');
+        isEmailValid = false;
+    }
+
+    if (!phoneRegex.test(phoneNumber)) {
+        g_form.showFieldMsg('customer_phone', 'Please enter a valid phone number', 'error');
+        isPhoneNumberValid = false;
+    }
+
+    return (isEmailValid && isPhoneNumberValid) ? true : false;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-06-29 04:23:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c84755897f3a51080e3fef3a253afe1</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Validate Email And Phone Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sys_script_client_4c84755897f3a51080e3fef3a253afe1</sys_update_name>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-06-29 08:16:35</sys_updated_on>
+        <table>x_1083337_eat_ordering_system</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

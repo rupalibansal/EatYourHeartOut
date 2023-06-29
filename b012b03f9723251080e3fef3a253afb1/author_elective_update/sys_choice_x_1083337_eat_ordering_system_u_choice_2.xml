@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="payment_method" table="x_1083337_eat_ordering_system" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_2" table="x_1083337_eat_ordering_system" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>payment_method</element>
+            <element>u_choice_2</element>
             <name>x_1083337_eat_ordering_system</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-27 11:53:08</sys_created_on>
+            <sys_created_on>2023-06-29 08:41:52</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>payment_method</sys_name>
+            <sys_name>u_choice_2</sys_name>
             <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
             <sys_policy/>
             <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-            <sys_update_name>sys_choice_x_1083337_eat_ordering_system_payment_method</sys_update_name>
+            <sys_update_name>sys_choice_x_1083337_eat_ordering_system_u_choice_2</sys_update_name>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-27 11:53:08</sys_updated_on>
+            <sys_updated_on>2023-06-29 08:41:52</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>payment_method</element>
+            <element>u_choice_2</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Card</label>
+            <label>Choice 1</label>
             <language>en</language>
             <name>x_1083337_eat_ordering_system</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-27 11:53:08</sys_created_on>
+            <sys_created_on>2023-06-29 08:41:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1ae4f13f9727251080e3fef3a253af8e</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_id>505c5f9097bba51080e3fef3a253af7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-29 14:15:37</sys_updated_on>
-            <value>2</value>
+            <sys_updated_on>2023-06-29 08:41:52</sys_updated_on>
+            <value>c1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>payment_method</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>none</label>
-            <language>en</language>
-            <name>x_1083337_eat_ordering_system</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-29 14:10:46</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4697642897bfa51080e3fef3a253af3f</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-29 14:15:37</sys_updated_on>
-            <value>3</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>payment_method</element>
+            <element>u_choice_2</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Cash</label>
+            <label>Choice 2</label>
             <language>en</language>
             <name>x_1083337_eat_ordering_system</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-27 11:53:08</sys_created_on>
+            <sys_created_on>2023-06-29 08:41:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5ae4f13f9727251080e3fef3a253af8b</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_id>145c5f9097bba51080e3fef3a253af81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-29 14:15:37</sys_updated_on>
-            <value>1</value>
+            <sys_updated_on>2023-06-29 08:41:53</sys_updated_on>
+            <value>c2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_1083337_eat_ordering_system</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>rupali.bansal</sys_created_by>
+            <sys_created_on>2023-06-29 08:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d45c5f9097bba51080e3fef3a253af83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rupali.bansal</sys_updated_by>
+            <sys_updated_on>2023-06-29 08:41:53</sys_updated_on>
+            <value>c3</value>
         </sys_choice>
     </sys_choice>
 </record_update>

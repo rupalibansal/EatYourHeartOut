@@ -5,6 +5,7 @@
         <element attributes="edge_encryption_enabled=true" label="Customer Email" mandatory="true" max_length="40" name="customer_email" type="string"/>
         <element label="Customer Mobile" max_length="40" name="customer_mobile" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Phone" mandatory="true" max_length="40" name="customer_phone" type="string"/>
         <element label="CVV" max_length="40" name="cvv" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Delivery Address" max_length="150" name="delivery_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Delivery Type" mandatory="true" max_length="40" name="delivery_type" type="string">
@@ -15,17 +16,28 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Expiration Number" max_length="40" name="expiration_number" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Menu Item" mandatory="true" max_length="32" name="menu_item" reference="x_1083337_eat_order_menus" type="reference"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Order Cost" max_length="20" name="order_cost" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Order Received" max_length="40" name="order_received" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Payment Method" mandatory="true" max_length="40" name="payment_method" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Method" mandatory="true" max_length="40" name="payment_method" type="string">
             <choice>
-                <element inactive_on_update="false" label="Cash" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Card" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Card" sequence="0" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="none" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Cash" sequence="1" value="1"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Pick up Location" max_length="100" name="pickup_location" type="string"/>
         <element label="Price" max_length="40" name="price" type="float"/>
         <element attributes="edge_encryption_enabled=true" label="Store Location" max_length="100" name="store_location_pickup" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="testMobile" mandatory="true" max_length="40" name="testmobile" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="test field" max_length="100" name="test_field" type="string"/>
+        <element label="Test Mobile" max_length="40" name="test_mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="TestChoiceField" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="c1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="c2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="c3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Pick Up Location" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>

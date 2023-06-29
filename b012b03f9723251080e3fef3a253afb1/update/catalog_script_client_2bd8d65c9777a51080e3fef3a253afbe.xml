@@ -8,7 +8,7 @@
         <applies_target_record>true</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</cat_item>
-        <cat_variable>IO:e655a29897b7a51080e3fef3a253af71</cat_variable>
+        <cat_variable>IO:1c18d9cc9773651080e3fef3a253af53</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -25,6 +25,8 @@
     var msg = 'hello! ';
     alert(msg);
 
+	var com = g_form.getValue('orderMenuItem');
+	alert(com.price);
     g_form.getReference('orderedItemRef', setPrice); //TEST Item this works but lookup - for reference so this is correct	
 	//g_form.getReference('orderMenuItem', setPrice); //This is Dropdown, we can't use REFERENCE here
 	
@@ -50,15 +52,15 @@ function setPrice(comboItem) { // reference is passed into callback as first arg
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2bd8d65c9777a51080e3fef3a253afbe</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Get price</sys_name>
         <sys_overrides/>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>catalog_script_client_2bd8d65c9777a51080e3fef3a253afbe</sys_update_name>
-        <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-29 04:59:33</sys_updated_on>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-06-29 09:19:20</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

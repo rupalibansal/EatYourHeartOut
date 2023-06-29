@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true,verify_parent_scope=false" db_object_id="de4c44c324b021108c8bc6863d3fad95" extends="question" label="Variable" max_length="40" name="item_option_new" type="collection">
+        <element attributes="encode_utf8=false" label="Reference" max_length="32" name="x_1083337_eat_reference" reference="x_1083337_eat_order_menus" type="reference"/>
+        <index name="index">
+            <element name="x_1083337_eat_reference"/>
+        </index>
+    </element>
+</database>

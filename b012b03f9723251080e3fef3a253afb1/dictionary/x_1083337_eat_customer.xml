@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="414feb4c97fb651080e3fef3a253af59" label="Customer" max_length="40" name="x_1083337_eat_customer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Customer Email" max_length="50" name="customer_email" type="string"/>
+        <element label="Customer Mobile" max_length="40" name="customer_mobile" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="50" name="customer_name" type="string"/>
+    </element>
+</database>
