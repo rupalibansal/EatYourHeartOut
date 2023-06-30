@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance_carousel</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>interval</field_list>
+        <has_preview>false</has_preview>
+        <id>eat_carousel</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Eat_Carousel</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[data.slides = $sp.getRelatedList('Eat _Carousel_Slide','eat_carousel');]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 13:12:44</sys_created_on>
+        <sys_id>a9e3ed789773291080e3fef3a253af1e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Eat_Carousel</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_widget_a9e3ed789773291080e3fef3a253af1e</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 13:51:34</sys_updated_on>
+        <template><![CDATA[<div class="pull-in">
+  <uib-carousel interval="options.interval">
+    <uib-slide ng-repeat="slide in ::data.slides" active="slide.active">
+      <div class="container">
+        <a href="{{::slide.url}}" title="${Open carousel item}: {{::slide.name}}">
+          <img ng-src="{{::slide.background}}" style="margin:auto; width:100%;" role="presentation">
+        </a>
+      </div>
+    </uib-slide>
+  </uib-carousel>
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_widget_a9e3ed789773291080e3fef3a253af1e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance_carousel&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;interval&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;eat_carousel&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Eat_Carousel&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[data.slides = $sp.getRelatedList('Eat _Carousel_Slide','eat_carousel');]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-30 13:12:44&lt;/sys_created_on&gt;&lt;sys_id&gt;a9e3ed789773291080e3fef3a253af1e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Eat_Carousel&lt;/sys_name&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_a9e3ed789773291080e3fef3a253af1e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-30 13:51:34&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="pull-in"&gt;
+  &lt;uib-carousel interval="options.interval"&gt;
+    &lt;uib-slide ng-repeat="slide in ::data.slides" active="slide.active"&gt;
+      &lt;div class="container"&gt;
+        &lt;a href="{{::slide.url}}" title="${Open carousel item}: {{::slide.name}}"&gt;
+          &lt;img ng-src="{{::slide.background}}" style="margin:auto; width:100%;" role="presentation"&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/uib-slide&gt;
+  &lt;/uib-carousel&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1946076064</payload_hash>
+        <record_name>Eat_Carousel</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 13:51:34</sys_created_on>
+        <sys_id>a2cc21f097b3291080e3fef3a253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890c92cc630000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 13:51:34</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>aacc21f0f0b329109f161d23a8cdda05</update_guid>
+        <update_guid_history>aacc21f0f0b329109f161d23a8cdda05:-1946076064,1ea5e13ce5732910e60b53934275eb34:1771715485,1224a1b83d732910e46e33365bd604e1:1900417183,61e3ed78a7732910d3db12a74d8eec21:-687052850</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Eat_Carousel">3f217d3897b3291080e3fef3a253af5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 14:10:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>9252282e3eef4490807ee1937fa86890</sys_id>
+        <sys_metadata>a9e3ed789773291080e3fef3a253af1e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Eat_Carousel</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_widget_a9e3ed789773291080e3fef3a253af1e</sys_update_name>
+        <sys_update_version display_value="sp_widget_a9e3ed789773291080e3fef3a253af1e">a2cc21f097b3291080e3fef3a253af06</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 14:10:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
