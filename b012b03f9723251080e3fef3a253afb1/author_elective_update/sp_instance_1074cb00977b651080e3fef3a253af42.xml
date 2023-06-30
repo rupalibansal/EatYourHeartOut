@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>@media (max-width: 767px) {
+  .wrapper-xl {
+    padding: 25px 15px !important;
+  }
+  .text-4x {
+    font-size: 3em;
+  }
+}</css>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bbf7347c97bfe51080e3fef3a253afbd</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-28 12:19:05</sys_created_on>
+        <sys_id>1074cb00977b651080e3fef3a253af42</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Welcome to Service Portal - Landing</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_instance_1074cb00977b651080e3fef3a253af42</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:02:03</sys_updated_on>
+        <title>Welcome to Service Portal - Landing</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"wrapper-xl welcome\">\r\n<h3 class=\"text-white text-4x h1\" role=\"presentation\">${We opened our doors with one goal in mind: Better Pizza}</h3>\r\n<p class=\"text-white\" role=\"presentation\">${Log in to order things}</p>\r\n</div>",
+		"displayValue": "<div class=\"wrapper-xl welcome\">\n<h3 class=\"text-white text-4x h1\" role=\"presentation\">${We opened our doors with one goal in mind: Better Pizza}</h3>\n<p class=\"text-white\" role=\"presentation\">${Log in to order things}</p>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1074cb00977b651080e3fef3a253af42"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_instance_1074cb00977b651080e3fef3a253af42</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;@media (max-width: 767px) {
+  .wrapper-xl {
+    padding: 25px 15px !important;
+  }
+  .text-4x {
+    font-size: 3em;
+  }
+}&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;bbf7347c97bfe51080e3fef3a253afbd&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-28 12:19:05&lt;/sys_created_on&gt;&lt;sys_id&gt;1074cb00977b651080e3fef3a253af42&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Welcome to Service Portal - Landing&lt;/sys_name&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_1074cb00977b651080e3fef3a253af42&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-30 10:02:03&lt;/sys_updated_on&gt;&lt;title&gt;Welcome to Service Portal - Landing&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;div class=\"wrapper-xl welcome\"&gt;\r\n&lt;h3 class=\"text-white text-4x h1\" role=\"presentation\"&gt;${We opened our doors with one goal in mind: Better Pizza}&lt;/h3&gt;\r\n&lt;p class=\"text-white\" role=\"presentation\"&gt;${Log in to order things}&lt;/p&gt;\r\n&lt;/div&gt;",
+		"displayValue": "&lt;div class=\"wrapper-xl welcome\"&gt;\n&lt;h3 class=\"text-white text-4x h1\" role=\"presentation\"&gt;${We opened our doors with one goal in mind: Better Pizza}&lt;/h3&gt;\n&lt;p class=\"text-white\" role=\"presentation\"&gt;${Log in to order things}&lt;/p&gt;\n&lt;/div&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1074cb00977b651080e3fef3a253af42"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1857118780</payload_hash>
+        <record_name>Welcome to Service Portal - Landing</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 10:02:03</sys_created_on>
+        <sys_id>ac48387c97bfe51080e3fef3a253af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890bc0ac610000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:02:03</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a448387ca7bfe510e001d62e76457068</update_guid>
+        <update_guid_history>a448387ca7bfe510e001d62e76457068:1857118780,7238387c7fbfe510f17106ea494cb753:-352899536,6e37703c65bfe5108cd93bd8386e422b:1122083652,1410e0b40a7fe5102d4135a084792bdf:-263708540,2a77cbc0fe7b6510af7462a302afea1d:313737748,d074cb00587b651095eaa631775a3f44:-1959967853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Welcome to Service Portal - Landing">0558387c97bfe51080e3fef3a253afba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 10:02:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>15440fb41dc749ad902cfb45a5945f89</sys_id>
+        <sys_metadata>1074cb00977b651080e3fef3a253af42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Welcome to Service Portal - Landing</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_instance_1074cb00977b651080e3fef3a253af42</sys_update_name>
+        <sys_update_version display_value="sp_instance_1074cb00977b651080e3fef3a253af42">ac48387c97bfe51080e3fef3a253af68</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:02:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

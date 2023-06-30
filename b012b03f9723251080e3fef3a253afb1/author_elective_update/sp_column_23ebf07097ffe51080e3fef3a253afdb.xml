@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>9</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">63ebf07097ffe51080e3fef3a253afd7</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 10:18:06</sys_created_on>
+        <sys_id>23ebf07097ffe51080e3fef3a253afdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_column_23ebf07097ffe51080e3fef3a253afdb</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:18:17</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_column_23ebf07097ffe51080e3fef3a253afdb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>9</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">63ebf07097ffe51080e3fef3a253afd7</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-06-30 10:18:06</sys_created_on><sys_id>23ebf07097ffe51080e3fef3a253afdb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>sp_column_23ebf07097ffe51080e3fef3a253afdb</sys_update_name><sys_updated_by>shey.delacruz</sys_updated_by><sys_updated_on>2023-06-30 10:18:17</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1843576871</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 10:18:17</sys_created_on>
+        <sys_id>92fb347097ffe51080e3fef3a253af71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890bcf88c60000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:18:17</sys_updated_on>
+        <type>Column</type>
+        <update_guid>9afb3470b0ffe510b74b05ffbcd31e70</update_guid>
+        <update_guid_history>9afb3470b0ffe510b74b05ffbcd31e70:1843576871,63ebf0707effe5101c0e147252dc2cdc:894540133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">b6fbfc3097ffe51080e3fef3a253af0b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 10:18:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>75949d5cca3446288037e0c4af020de4</sys_id>
+        <sys_metadata>23ebf07097ffe51080e3fef3a253afdb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_column_23ebf07097ffe51080e3fef3a253afdb</sys_update_name>
+        <sys_update_version display_value="sp_column_23ebf07097ffe51080e3fef3a253afdb">92fb347097ffe51080e3fef3a253af71</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:18:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
