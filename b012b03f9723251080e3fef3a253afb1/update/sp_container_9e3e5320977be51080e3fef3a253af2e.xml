@@ -6,7 +6,7 @@
         <bootstrap_alt>false</bootstrap_alt>
         <class_name/>
         <container_class_name/>
-        <name>Cloud Kitchen - Container 2</name>
+        <name>Eat Cloud Kitchen Catalog Item - Container 2</name>
         <order>2</order>
         <sp_page display_value="eat_catalog_item">ca3edfec973be51080e3fef3a253afff</sp_page>
         <subheader>false</subheader>
@@ -14,14 +14,14 @@
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-06-30 03:28:41</sys_created_on>
         <sys_id>9e3e5320977be51080e3fef3a253af2e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Cloud Kitchen - Container 2</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Eat Cloud Kitchen Catalog Item - Container 2</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sp_container_9e3e5320977be51080e3fef3a253af2e</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-30 08:20:21</sys_updated_on>
+        <sys_updated_on>2023-06-30 15:52:03</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>

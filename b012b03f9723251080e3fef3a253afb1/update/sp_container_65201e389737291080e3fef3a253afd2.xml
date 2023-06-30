@@ -2,26 +2,26 @@
     <sp_container action="INSERT_OR_UPDATE">
         <background_color/>
         <background_image/>
-        <background_style>cover</background_style>
+        <background_style>default</background_style>
         <bootstrap_alt>false</bootstrap_alt>
-        <class_name>hidden-xs</class_name>
+        <class_name/>
         <container_class_name/>
-        <name>Eat Home Page - Container 1</name>
-        <order>1</order>
+        <name>Eat Home Page - Container 4</name>
+        <order>4</order>
         <sp_page display_value="eat_index">f023c57897ffe51080e3fef3a253af83</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-06-30 10:49:36</sys_created_on>
-        <sys_id>7823c57897ffe51080e3fef3a253af85</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Eat Home Page - Container 1</sys_name>
+        <sys_created_on>2023-06-30 16:26:04</sys_created_on>
+        <sys_id>65201e389737291080e3fef3a253afd2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Eat Home Page - Container 4</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_update_name>sp_container_7823c57897ffe51080e3fef3a253af85</sys_update_name>
+        <sys_update_name>sp_container_65201e389737291080e3fef3a253afd2</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-30 11:45:46</sys_updated_on>
+        <sys_updated_on>2023-06-30 16:26:42</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>
