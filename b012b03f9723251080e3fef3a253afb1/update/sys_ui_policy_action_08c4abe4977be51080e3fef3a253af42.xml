@@ -2,22 +2,22 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>ignore</disabled>
-        <field>expiration_number</field>
+        <field>card_expiration_year</field>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>rupali.bansal</sys_created_by>
-        <sys_created_on>2023-06-27 14:56:51</sys_created_on>
-        <sys_id>10ee567797e7251080e3fef3a253af09</sys_id>
+        <sys_created_on>2023-06-30 03:57:25</sys_created_on>
+        <sys_id>08c4abe4977be51080e3fef3a253af42</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>expiration_number</sys_name>
+        <sys_name>card_expiration_year</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_update_name>sys_ui_policy_action_10ee567797e7251080e3fef3a253af09</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_08c4abe4977be51080e3fef3a253af42</sys_update_name>
         <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:56:51</sys_updated_on>
+        <sys_updated_on>2023-06-30 03:57:25</sys_updated_on>
         <table>x_1083337_eat_ordering_system</table>
-        <ui_policy display_value="Make the  Card Expiration Visible (Payment Method- Card)">22de167797e7251080e3fef3a253af00</ui_policy>
+        <ui_policy display_value="Make the  Card Expiration Year Visible (Payment Method- Card)">c6b467e4977be51080e3fef3a253af99</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

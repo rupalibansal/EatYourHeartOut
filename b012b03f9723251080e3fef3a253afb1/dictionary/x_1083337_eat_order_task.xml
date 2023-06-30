@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="65174a3f9767251080e3fef3a253afba" extends="task" label="Order Task" max_length="40" name="x_1083337_eat_order_task" type="collection">
+        <element label="Order Request" max_length="32" name="order_request" reference="x_1083337_eat_ordering_system" type="reference"/>
         <element attributes="encode_utf8=false" label="Price" max_length="32" name="price" reference="x_1083337_eat_order_task" type="reference"/>
     </element>
 </database>

@@ -95,5 +95,45 @@
             <sys_updated_on>2023-06-28 07:04:13</sys_updated_on>
             <value>4</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out for Delivery</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_task</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>rupali.bansal</sys_created_by>
+            <sys_created_on>2023-06-30 06:20:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f875003c97fbe51080e3fef3a253af24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rupali.bansal</sys_updated_by>
+            <sys_updated_on>2023-06-30 06:20:04</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivered</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_task</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>rupali.bansal</sys_created_by>
+            <sys_created_on>2023-06-30 06:20:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3075003c97fbe51080e3fef3a253af27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rupali.bansal</sys_updated_by>
+            <sys_updated_on>2023-06-30 06:20:04</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

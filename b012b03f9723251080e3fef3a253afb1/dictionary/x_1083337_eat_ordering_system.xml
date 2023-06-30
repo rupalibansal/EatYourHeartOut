@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7c13f0ff9723251080e3fef3a253afa5" extends="task" label="Order Request" max_length="40" name="x_1083337_eat_ordering_system" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Card Expiration Month" max_length="40" name="card_expiration_month" type="string">
+            <choice>
+                <element inactive_on_update="false" label="January" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="February" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="March" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="April" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="May" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="June" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="July" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="August" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="September" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="October" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="November" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="December" sequence="11" value="12"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Card Expiration Year" max_length="40" name="card_expiration_year" type="string">
+            <choice>
+                <element inactive_on_update="false" label="2023" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2024" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="2025" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="2026" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="2027" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="2028" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="2029" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="2030" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="2031" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="2032" sequence="9" value="10"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Card Name" max_length="40" name="card_name" type="string"/>
         <element label="Card Number" max_length="40" name="card_number" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Customer Email" mandatory="true" max_length="40" name="customer_email" type="string"/>
@@ -18,6 +48,7 @@
         <element attributes="encode_utf8=false" label="Menu Item" mandatory="true" max_length="32" name="menu_item" reference="x_1083337_eat_order_menus" type="reference"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Order Cost" max_length="20" name="order_cost" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Order Received" max_length="40" name="order_received" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Order Task" max_length="32" name="order_task" reference="x_1083337_eat_order_task" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Method" mandatory="true" max_length="40" name="payment_method" type="string">
             <choice>
                 <element inactive_on_update="false" label="Card" sequence="0" value="2"/>

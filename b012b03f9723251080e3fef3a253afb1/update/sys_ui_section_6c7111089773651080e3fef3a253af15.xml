@@ -168,6 +168,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_request</element>
+            <position>12</position>
+            <sys_created_by>rupali.bansal</sys_created_by>
+            <sys_created_on>2023-06-30 07:56:41</sys_created_on>
+            <sys_id>c09bd070977fe51080e3fef3a253afe3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_order_task" sys_domain="global" view="Default view">6c7111089773651080e3fef3a253af15</sys_ui_section>
+            <sys_updated_by>rupali.bansal</sys_updated_by>
+            <sys_updated_on>2023-06-30 07:56:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
