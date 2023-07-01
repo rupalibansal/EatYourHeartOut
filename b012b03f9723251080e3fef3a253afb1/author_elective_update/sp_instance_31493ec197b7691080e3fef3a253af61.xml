@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">b78ed5749773291080e3fef3a253af72</sp_column>
+        <sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 14:04:14</sys_created_on>
+        <sys_id>31493ec197b7691080e3fef3a253af61</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_instance_31493ec197b7691080e3fef3a253af61</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 14:08:09</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_panel": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"use_advanced": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=31493ec197b7691080e3fef3a253af61"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_instance_31493ec197b7691080e3fef3a253af61</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;b78ed5749773291080e3fef3a253af72&lt;/sp_column&gt;&lt;sp_widget display_value="Login"&gt;6506d341cb33020000f8d856634c9cdc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-01 14:04:14&lt;/sys_created_on&gt;&lt;sys_id&gt;31493ec197b7691080e3fef3a253af61&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_31493ec197b7691080e3fef3a253af61&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-01 14:08:09&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"show_panel": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"use_advanced": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=31493ec197b7691080e3fef3a253af61"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>30750400</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 14:08:09</sys_created_on>
+        <sys_id>1f2af24597b7691080e3fef3a253affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18911c8581c0000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 14:08:09</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>172af24597b76910f47da8d08ab37cfd</update_guid>
+        <update_guid_history>172af24597b76910f47da8d08ab37cfd:30750400,1c1a724535b76910615a7b7966989dac:1055974653,0c1a7245ffb7691074efa33c6d3c7036:1831070204,ef69b205f9b7691074362174b42fafc0:1055974653,e769b205afb76910154125f22d714cb8:1411055933,8f69b20591b769108ffe6f0e94486042:1831070204,0b69b20505b76910bf4bd9c079d5b53a:1411055933,256972052cb769109c5d71f92df20dcf:1831070204,b9493ec141b7691088aca1224a8bfd62:1055974653</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">264af24597b7691080e3fef3a253afb0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 14:08:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3e2b0046500e4de0ac9e09286e883819</sys_id>
+        <sys_metadata>31493ec197b7691080e3fef3a253af61</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_instance_31493ec197b7691080e3fef3a253af61</sys_update_name>
+        <sys_update_version display_value="sp_instance_31493ec197b7691080e3fef3a253af61">1f2af24597b7691080e3fef3a253affd</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 14:08:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

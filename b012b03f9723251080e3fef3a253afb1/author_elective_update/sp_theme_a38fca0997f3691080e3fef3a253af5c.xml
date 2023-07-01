@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="DELETE">
+        <css_variables/>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Eat Header">6cd2160d97f3691080e3fef3a253afba</header>
+        <name>Eat Your Heart Out</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 11:03:43</sys_created_on>
+        <sys_id>a38fca0997f3691080e3fef3a253af5c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Eat Your Heart Out</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_theme_a38fca0997f3691080e3fef3a253af5c</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 11:24:14</sys_updated_on>
+    </sp_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_theme_a38fca0997f3691080e3fef3a253af5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables/><footer/><footer_fixed>false</footer_fixed><header display_value="Eat Header">6cd2160d97f3691080e3fef3a253afba</header><name>Eat Your Heart Out</name><navbar_fixed>true</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-07-01 11:03:43</sys_created_on><sys_id>a38fca0997f3691080e3fef3a253af5c</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Eat Your Heart Out</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>sp_theme_a38fca0997f3691080e3fef3a253af5c</sys_update_name><sys_updated_by>shey.delacruz</sys_updated_by><sys_updated_on>2023-07-01 11:24:14</sys_updated_on></sp_theme></record_update>]]></payload>
+        <payload_hash>798605525</payload_hash>
+        <record_name>Eat Your Heart Out</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 11:24:14</sys_created_on>
+        <sys_id>79a412cd97f3691080e3fef3a253afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189113243d10000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 11:24:14</sys_updated_on>
+        <type>Theme</type>
+        <update_guid>71a412cd1af36910a32ca048a7eb4bdb</update_guid>
+        <update_guid_history>71a412cd1af36910a32ca048a7eb4bdb:798605525,d2f3568d12f369103302539ce92a4042:-1324432804,9e829ec9baf36910b141de6093790285:76679040,3d625ac9d3f36910b0d9e42fc71218fc:1034409743,81b05e4977f36910400af948db52a542:-1570031175,d1ffca098bf36910bcee66f89e968401:-1882945408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Eat Your Heart Out">40051acd97f3691080e3fef3a253af20</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 11:25:44</sys_created_on>
+        <sys_db_object display_value="" name="sp_theme">sp_theme</sys_db_object>
+        <sys_id>38d4966d783440fabd6dcf323f8a13e4</sys_id>
+        <sys_metadata>a38fca0997f3691080e3fef3a253af5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Eat Your Heart Out</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_theme_a38fca0997f3691080e3fef3a253af5c</sys_update_name>
+        <sys_update_version display_value="sp_theme_a38fca0997f3691080e3fef3a253af5c">79a412cd97f3691080e3fef3a253afdb</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 11:25:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

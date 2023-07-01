@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>question</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Read some articles about food &amp; nutrition</short_description>
+        <size>md</size>
+        <sp_column display_value="2">4bb4cf0197f7691080e3fef3a253af0a</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 11:41:38</sys_created_on>
+        <sys_id>b4a8d2c19737691080e3fef3a253afef</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Did you know?</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_instance_link_b4a8d2c19737691080e3fef3a253afef</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 15:01:00</sys_updated_on>
+        <title>Did you know?</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=b4a8d2c19737691080e3fef3a253afef"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_instance_link_b4a8d2c19737691080e3fef3a253afef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;question&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Read some articles about food &amp;amp; nutrition&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;4bb4cf0197f7691080e3fef3a253af0a&lt;/sp_column&gt;&lt;sp_page display_value="kb_view2"&gt;26c2e030d7201200a9addd173e24d437&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-01 11:41:38&lt;/sys_created_on&gt;&lt;sys_id&gt;b4a8d2c19737691080e3fef3a253afef&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Did you know?&lt;/sys_name&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_b4a8d2c19737691080e3fef3a253afef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-01 15:01:00&lt;/sys_updated_on&gt;&lt;title&gt;Did you know?&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b4a8d2c19737691080e3fef3a253afef"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-75574805</payload_hash>
+        <record_name>Did you know?</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 15:01:00</sys_created_on>
+        <sys_id>9946cb8197f7691080e3fef3a253afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18911f8b9430000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 15:01:00</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>9146cb81faf76910bef3d892a778f4df</update_guid>
+        <update_guid_history>9146cb81faf76910bef3d892a778f4df:-75574805,5146cb81d4f76910d23efdbe72d31cc0:-1924135594,ec46cb81d2f7691094a19254a14f116b:-75574805,e046cb81fbf769107f517d1c78098065:-1924135594,7ad5c38144f7691022d8e315f94448a7:-75574805,e6d4434159f76910abea15f7ed539ae3:-1744337523,75940f0128f769101eda0643c598d80c:1828800704,5054470104f769108842b1495ad8edca:-1992165876,dc34830167f769107265ce3268f5f995:-502661390,efe34bcdf5b769105e907e028c3ececd:-872476744,3a934bcdeeb769105c4103d500f39ac8:1851451611,22b4728d1d776910a1f8727db1ffa5c5:-1241321195,c9a8d2c1a4376910c553023160d4fef0:999243254</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Did you know?">a2564f8197f7691080e3fef3a253affd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 15:01:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>08744a41f1494c669d8f54d245269f31</sys_id>
+        <sys_metadata>b4a8d2c19737691080e3fef3a253afef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Did you know?</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_instance_link_b4a8d2c19737691080e3fef3a253afef</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_b4a8d2c19737691080e3fef3a253afef">9946cb8197f7691080e3fef3a253afdf</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 15:01:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

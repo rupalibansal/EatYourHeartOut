@@ -4,7 +4,7 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <glyph>book</glyph>
+        <glyph>cutlery</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
@@ -13,32 +13,32 @@
         <roles/>
         <sc_cat_item/>
         <sc_category/>
-        <short_description/>
+        <short_description>Eat your heart out</short_description>
         <size>md</size>
-        <sp_column display_value="3">b78ed5749773291080e3fef3a253af72</sp_column>
-        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_column display_value="2">fabb0b0997f7691080e3fef3a253af79</sp_column>
+        <sp_page/>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-06-30 10:49:36</sys_created_on>
-        <sys_id>3823897897ffe51080e3fef3a253afb4</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Knowledge Base</sys_name>
+        <sys_created_on>2023-07-01 14:56:19</sys_created_on>
+        <sys_id>3435834197f7691080e3fef3a253af8a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Order now</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_update_name>sp_instance_link_3823897897ffe51080e3fef3a253afb4</sys_update_name>
+        <sys_update_name>sp_instance_link_3435834197f7691080e3fef3a253af8a</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-30 15:56:15</sys_updated_on>
-        <title>Knowledge Base</title>
-        <type>page</type>
-        <url/>
+        <sys_updated_on>2023-07-01 15:25:10</sys_updated_on>
+        <title>Order now</title>
+        <type>url</type>
+        <url>?id=sc_cat_item&amp;sys_id=21d5914c9773651080e3fef3a253af0c</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Circle Icon",
-		"displayValue": "Circle Icon"
+		"value": "",
+		"displayValue": ""
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=3823897897ffe51080e3fef3a253afb4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3435834197f7691080e3fef3a253af8a"/>
 </record_update>

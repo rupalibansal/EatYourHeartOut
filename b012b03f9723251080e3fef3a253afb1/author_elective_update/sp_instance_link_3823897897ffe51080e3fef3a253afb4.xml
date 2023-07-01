@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7b8e91749773291080e3fef3a253afab</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 10:49:36</sys_created_on>
+        <sys_id>3823897897ffe51080e3fef3a253afb4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_instance_link_3823897897ffe51080e3fef3a253afb4</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 14:04:52</sys_updated_on>
+        <title>Knowledge Base</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=3823897897ffe51080e3fef3a253afb4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_instance_link_3823897897ffe51080e3fef3a253afb4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;7b8e91749773291080e3fef3a253afab&lt;/sp_column&gt;&lt;sp_page display_value="kb_view2"&gt;26c2e030d7201200a9addd173e24d437&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-30 10:49:36&lt;/sys_created_on&gt;&lt;sys_id&gt;3823897897ffe51080e3fef3a253afb4&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge Base&lt;/sys_name&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_3823897897ffe51080e3fef3a253afb4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-01 14:04:52&lt;/sys_updated_on&gt;&lt;title&gt;Knowledge Base&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3823897897ffe51080e3fef3a253afb4"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-684393324</payload_hash>
+        <record_name>Knowledge Base</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 14:04:52</sys_created_on>
+        <sys_id>8b69b20597b7691080e3fef3a253af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18911c557280000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 14:04:52</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>8369b20538b769100455bd3dbf44003e</update_guid>
+        <update_guid_history>8369b20538b769100455bd3dbf44003e:-684393324,2969720582b769101b070f09ac7a21ca:-617462091,7c594e30de3729109e96a12e68bfafc6:-569073514,b528fdfc12b32910e83527043fcdcfbc:-1299896292,bcf7b9fc12b329102948f1af19c929da:754506555,f052f1b86bb3291069d840fd03af23a6:-1299896292,6bfd5d34a0732910c04981334c21d7b2:-55031708,7f2c15b0757329104b845e724bc88da2:-958472651,e9abd97038732910719f00a9e1af71c2:1607150137,d324c9b8c5ffe5101860dc5ed7f1106a:-447252710,7c238978d2ffe510fb497a72f84d56b5:1793311739</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Base">cba9f60597b7691080e3fef3a253af9e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 14:05:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>6bd792637c5d40648e55362959654e90</sys_id>
+        <sys_metadata>3823897897ffe51080e3fef3a253afb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_instance_link_3823897897ffe51080e3fef3a253afb4</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_3823897897ffe51080e3fef3a253afb4">8b69b20597b7691080e3fef3a253af3e</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 14:05:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

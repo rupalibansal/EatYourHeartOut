@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">49a8d2c19737691080e3fef3a253aff9</sp_column>
+        <sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 11:41:38</sys_created_on>
+        <sys_id>81a816c19737691080e3fef3a253af00</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Top Rated Articles</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_instance_81a816c19737691080e3fef3a253af00</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 15:35:09</sys_updated_on>
+        <title>Top Rated Articles</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=81a816c19737691080e3fef3a253af00"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_instance_81a816c19737691080e3fef3a253af00</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">49a8d2c19737691080e3fef3a253aff9</sp_column><sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-07-01 11:41:38</sys_created_on><sys_id>81a816c19737691080e3fef3a253af00</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Top Rated Articles</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>sp_instance_81a816c19737691080e3fef3a253af00</sys_update_name><sys_updated_by>shey.delacruz</sys_updated_by><sys_updated_on>2023-07-01 15:35:09</sys_updated_on><title>Top Rated Articles</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=81a816c19737691080e3fef3a253af00"/></record_update>]]></payload>
+        <payload_hash>1504382358</payload_hash>
+        <record_name>Top Rated Articles</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 15:35:09</sys_created_on>
+        <sys_id>251e87c997f7691080e3fef3a253af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1891217fedb0000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 15:35:09</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>2d1e87c977f76910977e1dd0ec043c3e</update_guid>
+        <update_guid_history>2d1e87c977f76910977e1dd0ec043c3e:1504382358,101e47c9aef7691083b7daf5381627ee:-1605687017,beb4728dff77691005283df13cd9a2e3:-420789096,c5a816c187376910c7223fa0828a7701:-1605687017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Top Rated Articles">0a1e07c997f7691080e3fef3a253afa4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 15:35:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>7886940abf1845c1999f53efdabe2479</sys_id>
+        <sys_metadata>81a816c19737691080e3fef3a253af00</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Top Rated Articles</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_instance_81a816c19737691080e3fef3a253af00</sys_update_name>
+        <sys_update_version display_value="sp_instance_81a816c19737691080e3fef3a253af00">251e87c997f7691080e3fef3a253af3f</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 15:35:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
