@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope, $element, $timeout, $http, cabrillo, $rootScope, spUtil) {
+	/* widget controller */
+	var c = this;
+	$scope.mapInit = false;
+
+	if (c.data.address) {
+		$scope.mapInit = true;
+		$element.find(".gmap_canvas")[0].innerHTML = c.data.iframe_element;
+	}
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.gmap_canvas {
+	padding: 1em;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>eat_pickup_location</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Eat Pickup Location</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+
+	data.sysUserID = gs.getUserID();
+
+	// check HR/User Criteria "Where to find us (18 days before start)" and only if true then show/continue
+	data.canView = new sn_hr_core.hr_Criteria().evaluateById("0709a43e0b3312009eaf2da0d5673a6e", data.sysUserID);
+	
+	if (!data.canView) {
+		return;
+	}
+
+	
+	data.title = options.title ? gs.getMessage(options.title) : gs.getMessage("Where to find us");
+	data.msgAddress = gs.getMessage("Address for 1st working day");
+	data.msgTime = gs.getMessage("Time for 1st working day");
+
+	data.address = "";
+	data.time = "";
+
+	var hrProfileGR = new GlideRecord("sn_hr_core_profile");
+	if (hrProfileGR.get("user", data.sysUserID)) {
+		data.address = hrProfileGR.user.location.getDisplayValue("name");
+		data.time = hrProfileGR.getDisplayValue("u_time_for_1st_working_day");
+	}
+
+	if (data.address) {
+		// for iframe
+		//var address_query = encodeURIComponent(data.address);
+		var address_query = encodeURIComponent('75 Square, Caroline Springs Vic 1111');
+		var language = gs.getSession().getLanguage() || "en";
+		data.iframe_element = '<iframe id="gmap_canvas" src="https://maps.google.com/maps?t=&z=14&ie=UTF8&iwloc=&output=embed&language=' + language + '&q=' + address_query + '" height="220px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>';
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 07:57:40</sys_created_on>
+        <sys_id>4065ed4d9733691080e3fef3a253afbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Eat Pickup Location</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_widget_4065ed4d9733691080e3fef3a253afbf</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-01 08:00:35</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-{{options.color}} b" rect="rect" ng-show="data.canView">
+
+  <div class="panel-heading">
+    <h3 class="h4 panel-title">{{::data.title}}</h3>
+  </div>
+
+  <div class="panel panel-{{options.color}} b">
+
+    <div id="map-container">
+      <div class="mapouter">
+        <div class="gmap_canvas"></div>
+      </div>
+    </div>
+
+    <div ng-show="data.address" class="geo-address wrapper">
+      <p><strong>{{::data.msgAddress}}</strong>: <span>{{::data.address}}</span></p>
+      <p></p>
+      <p><strong>{{::data.msgTime}}</strong>: <span>{{::data.time}}</span></p>
+    </div>
+
+  </div>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>
