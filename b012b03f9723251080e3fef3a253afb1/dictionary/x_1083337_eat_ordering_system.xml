@@ -30,7 +30,7 @@
                 <element inactive_on_update="false" label="2032" sequence="9" value="10"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Card Name" max_length="40" name="card_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name On Card" max_length="40" name="card_name" type="string"/>
         <element label="Card Number" max_length="40" name="card_number" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Customer Email" mandatory="true" max_length="40" name="customer_email" type="string"/>
         <element label="Customer Mobile" max_length="40" name="customer_mobile" type="integer"/>

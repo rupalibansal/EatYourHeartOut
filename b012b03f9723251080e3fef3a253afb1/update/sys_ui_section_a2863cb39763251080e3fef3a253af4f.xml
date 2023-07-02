@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af3a</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>372d7b159773611080e3fef3a253af1e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>menu_item</element>
             <position>1</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fe5c14b0977fe51080e3fef3a253af3a</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3b2d7b159773611080e3fef3a253af1e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>order_cost</element>
             <position>2</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f25c14b0977fe51080e3fef3a253af3b</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3f2d7b159773611080e3fef3a253af1e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>customer_name</element>
             <position>3</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af3b</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>332d7b159773611080e3fef3a253af1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>customer_phone</element>
             <position>4</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fa5c14b0977fe51080e3fef3a253af3b</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>372d7b159773611080e3fef3a253af1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>customer_email</element>
             <position>5</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fe5c14b0977fe51080e3fef3a253af3b</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3b2d7b159773611080e3fef3a253af1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>delivery_type</element>
             <position>6</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f25c14b0977fe51080e3fef3a253af3c</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3f2d7b159773611080e3fef3a253af1f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>store_location_pickup</element>
             <position>7</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af3c</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>332d7b159773611080e3fef3a253af20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>delivery_address</element>
             <position>8</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fa5c14b0977fe51080e3fef3a253af3c</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>372d7b159773611080e3fef3a253af20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>.split</element>
             <position>9</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fe5c14b0977fe51080e3fef3a253af3c</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3b2d7b159773611080e3fef3a253af20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>order_received</element>
             <position>10</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f25c14b0977fe51080e3fef3a253af3d</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3f2d7b159773611080e3fef3a253af20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,237 +158,223 @@
             <element>active</element>
             <position>11</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af3d</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>332d7b159773611080e3fef3a253af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>12</position>
-            <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fa5c14b0977fe51080e3fef3a253af3d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fe5c14b0977fe51080e3fef3a253af3d</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>372d7b159773611080e3fef3a253af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f25c14b0977fe51080e3fef3a253af3e</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3b2d7b159773611080e3fef3a253af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af3e</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3f2d7b159773611080e3fef3a253af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>price</element>
-            <position>16</position>
+            <element>assignment_group</element>
+            <position>15</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fa5c14b0977fe51080e3fef3a253af3e</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>332d7b159773611080e3fef3a253af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>payment_method</element>
-            <position>17</position>
+            <position>16</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fe5c14b0977fe51080e3fef3a253af3e</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>372d7b159773611080e3fef3a253af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>card_name</element>
-            <position>18</position>
+            <position>17</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f25c14b0977fe51080e3fef3a253af3f</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3b2d7b159773611080e3fef3a253af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>card_number</element>
-            <position>19</position>
+            <position>18</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af3f</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3f2d7b159773611080e3fef3a253af22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>card_expiration_month</element>
-            <position>20</position>
+            <position>19</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fa5c14b0977fe51080e3fef3a253af3f</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>332d7b159773611080e3fef3a253af23</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>card_expiration_year</element>
-            <position>21</position>
+            <position>20</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fe5c14b0977fe51080e3fef3a253af3f</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>372d7b159773611080e3fef3a253af23</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cvv</element>
-            <position>22</position>
+            <position>21</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f25c14b0977fe51080e3fef3a253af40</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3b2d7b159773611080e3fef3a253af23</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>23</position>
+            <position>22</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af40</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3f2d7b159773611080e3fef3a253af23</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
-            <position>24</position>
+            <position>23</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fa5c14b0977fe51080e3fef3a253af40</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>332d7b159773611080e3fef3a253af24</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>25</position>
+            <position>24</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>fe5c14b0977fe51080e3fef3a253af40</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>372d7b159773611080e3fef3a253af24</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>26</position>
+            <position>25</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f25c14b0977fe51080e3fef3a253af41</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3b2d7b159773611080e3fef3a253af24</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>12M.x_1083337_eat_ordering_system.x_1083337_eat_order_task.order_request</element>
-            <position>27</position>
+            <position>26</position>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 08:00:09</sys_created_on>
-            <sys_id>f65c14b0977fe51080e3fef3a253af41</sys_id>
+            <sys_created_on>2023-07-02 13:39:24</sys_created_on>
+            <sys_id>3f2d7b159773611080e3fef3a253af24</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1083337_eat_ordering_system" sys_domain="global" view="Default view">a2863cb39763251080e3fef3a253af4f</sys_ui_section>
             <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-30 08:00:09</sys_updated_on>
+            <sys_updated_on>2023-07-02 13:39:24</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>
