@@ -3,5 +3,6 @@
         <element attributes="edge_encryption_enabled=true" label="Customer Email" max_length="50" name="customer_email" type="string"/>
         <element label="Customer Mobile" max_length="40" name="customer_mobile" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="50" name="customer_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>
