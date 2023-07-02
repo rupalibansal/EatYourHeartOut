@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>cutlery</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Eat your heart out</short_description>
+        <size>md</size>
+        <sp_column display_value="3">2dc6f99d973b211080e3fef3a253afdd</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 14:56:19</sys_created_on>
+        <sys_id>3435834197f7691080e3fef3a253af8a</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Order now</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_instance_link_3435834197f7691080e3fef3a253af8a</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 03:54:35</sys_updated_on>
+        <title>Order now</title>
+        <type>url</type>
+        <url>?id=sc_cat_item&amp;sys_id=21d5914c9773651080e3fef3a253af0c</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=3435834197f7691080e3fef3a253af8a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_instance_link_3435834197f7691080e3fef3a253af8a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;cutlery&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Eat your heart out&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;2dc6f99d973b211080e3fef3a253afdd&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-01 14:56:19&lt;/sys_created_on&gt;&lt;sys_id&gt;3435834197f7691080e3fef3a253af8a&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Order now&lt;/sys_name&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_3435834197f7691080e3fef3a253af8a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-02 03:54:35&lt;/sys_updated_on&gt;&lt;title&gt;Order now&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;?id=sc_cat_item&amp;amp;sys_id=21d5914c9773651080e3fef3a253af0c&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3435834197f7691080e3fef3a253af8a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1315934050</payload_hash>
+        <record_name>Order now</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 03:54:35</sys_created_on>
+        <sys_id>895775dd973b211080e3fef3a253afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18914bcf7b50000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 03:54:35</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>815775ddfc3b2110d80539382a94cda2</update_guid>
+        <update_guid_history>815775ddfc3b2110d80539382a94cda2:-1315934050,455775dd5c3b211020d4f7f9af0fae9e:-1419528577,bed67d9d5c3b21106378e7b2177c30a1:847229642,3ad67d9dea3b21100709437ad18aa29c:-1419528577,f1d67d9d533b2110d6dd91d3b861a550:847229642,a1d67d9d663b21102e5b09c830b6694a:-1419528577,24d63d9d043b2110dca86031bb26c9f6:847229642,6cd63d9df83b2110404231766a4a73e3:-1419528577,357a5309bf3b69100bc9a30aba440f45:847229642,056a1309493b6910909a320be691d844:-1863818663,cc4a5fc5753b69100307ffb5513f6c42:847229642,1bcb8b09bcf76910f5923c605343db93:-1863818663,4ecb8b0913f769107e4b3406dd33e212:-1295321375,d69b4709b5f76910c0dda571cbc4b483:1011696215,d99b07099df76910c1e4b27dc15304f2:-272955870,6c9b07094ef76910a573c312438c8589:-679895325,5146cb8116f7691047842cbdd6553ebc:1011696215,b6c54f41dcf76910b206aa267d55c024:2065891517,90b50b4196f76910339aef070a1272fd:2055855725,13750f4153f7691086acd603aef33be7:679028785,bc3583415ff76910659b50e99eaa398b:903890072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Order now">c967b5dd973b211080e3fef3a253af88</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 03:54:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>14a4e8321e61445ab58841132b31be24</sys_id>
+        <sys_metadata>3435834197f7691080e3fef3a253af8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order now</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_instance_link_3435834197f7691080e3fef3a253af8a</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_3435834197f7691080e3fef3a253af8a">895775dd973b211080e3fef3a253afa2</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 03:54:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

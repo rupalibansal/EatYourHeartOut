@@ -6,7 +6,7 @@
         <details_link_text/>
         <details_page display_value="eat_homepage">b4a81e419737691080e3fef3a253afde</details_page>
         <details_url/>
-        <dismiss_options>session_dismissible</dismiss_options>
+        <dismiss_options>not_dismissible</dismiss_options>
         <display_first>false</display_first>
         <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
         <from>2023-07-01 16:15:59</from>
@@ -16,19 +16,19 @@
         <public>true</public>
         <roles/>
         <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
-        <summary>Congratulations NextGen, this is our last day. We've come a long way so let us celebrate, cheers to all of us and thank you Servicenow &amp; KIK team! Kudos</summary>
+        <summary>Congratulations NextGeners, this is our last day and we're officially graduates! We've come a long way so let us celebrate, cheers to all of us and thank you Servicenow &amp; KIK team! Kudos</summary>
         <sys_class_name>announcement</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-07-01 16:19:29</sys_created_on>
         <sys_id>75475f05973b691080e3fef3a253affd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Last day of cohort</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>announcement_75475f05973b691080e3fef3a253affd</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-01 16:24:27</sys_updated_on>
+        <sys_updated_on>2023-07-01 23:49:50</sys_updated_on>
         <title>Last day of cohort</title>
         <to>2023-07-08 16:16:08</to>
         <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>

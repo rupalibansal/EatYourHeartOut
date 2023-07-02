@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category display_value="Nutrient">de50e71f972fa11080e3fef3a253af24</kb_category>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Articles about food and nutrition</short_description>
+        <size>md</size>
+        <sp_column display_value="3">c54a5fc5973b691080e3fef3a253afe2</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 15:03:51</sys_created_on>
+        <sys_id>cfe60bc197f7691080e3fef3a253af5f</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Did you know?</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_instance_link_cfe60bc197f7691080e3fef3a253af5f</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 04:03:56</sys_updated_on>
+        <title>Did you know?</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=cfe60bc197f7691080e3fef3a253af5f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_instance_link_cfe60bc197f7691080e3fef3a253af5f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category display_value="Nutrient"&gt;de50e71f972fa11080e3fef3a253af24&lt;/kb_category&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Articles about food and nutrition&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;c54a5fc5973b691080e3fef3a253afe2&lt;/sp_column&gt;&lt;sp_page display_value="kb_view2"&gt;26c2e030d7201200a9addd173e24d437&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-01 15:03:51&lt;/sys_created_on&gt;&lt;sys_id&gt;cfe60bc197f7691080e3fef3a253af5f&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name&gt;Did you know?&lt;/sys_name&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_cfe60bc197f7691080e3fef3a253af5f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-02 04:03:56&lt;/sys_updated_on&gt;&lt;title&gt;Did you know?&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cfe60bc197f7691080e3fef3a253af5f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>67865597</payload_hash>
+        <record_name>Did you know?</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 04:03:57</sys_created_on>
+        <sys_id>1a79f551977b211080e3fef3a253afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18914c588220000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 04:03:57</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>1279f5513e7b21106d8e200110c9b5cd</update_guid>
+        <update_guid_history>1279f5513e7b21106d8e200110c9b5cd:67865597,5fc63d9dda3b2110de1eb97e702eed85:-1160230086,aa9a1709353b6910e38625eb3bc242a0:67865597,a78a9fc5293b6910a9edaf12a8d47aa2:-194567089,f94a9fc56e3b6910311c36c28ebc920c:67865597,f85e07c9ebf7691090d6cd3cb5f8306c:600204950,294e4bc973f7691001e0d3047053ae92:-84583754,52dc4b0981f7691024ea75eac85ac393:600204950,43eb4f0978f769105e141c356e391edd:1211020384,9edb0f095cf76910b2a2d500bfe4776a:269888210,d6db0f09d0f76910d91311ed2e054c65:1344247737,9bcb8b093cf7691094776703d8649a97:269888210,1fcb8b093df769108bf042a5ae850b8e:1344247737,8acb8b09a9f769108c60d79aa6c3470e:-5294903,8ecb8b092ff769104eea6de3fc289609:1344247737,f4cb4b0961f769100d988a8af565c26f:269888210,38cb4b0925f769104a2721ba06e6d06a:1344247737,63bb0b0955f7691024fe9df696a5f2c6:-5294903,9fbb0b0994f769107f46071b5182fdaf:1344247737,7abb0b09e9f769104d3d7a1de4903e7f:269888210,fabb470962f76910aa2b49b254683e32:1344247737,0dbbc7091af76910f773296f8a4bdbe8:-360625234,45bbc709bbf76910fcad97e43bdd58dc:1344247737,19ab870928f769104393284689fd9c94:-360625234,91ab87096ef76910a7c041757b56e659:1344247737,9e9b470942f76910c5e7a8c7f956dc71:-360625234,de9b4709e0f769108de43ff41635f26c:1344247737,d19b0709d4f76910560d3b925b03aaf8:1880429959,a89b0709ebf76910407e90d72ec2b38f:-1354282041,109b070996f7691062cd257adb9f5474:-360625234,11f7c705aef76910a8ac306b09fc65d1:1880429959,2f1707c112f76910155860c9f83f5037:662003263,87e60bc1a4f769104634475d03e84b61:1310688138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Did you know?">b43af191977b211080e3fef3a253aff5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 04:07:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>ae140065449344bcb7d5607c7edc7e10</sys_id>
+        <sys_metadata>cfe60bc197f7691080e3fef3a253af5f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Did you know?</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_instance_link_cfe60bc197f7691080e3fef3a253af5f</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_cfe60bc197f7691080e3fef3a253af5f">1a79f551977b211080e3fef3a253afcd</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 04:07:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

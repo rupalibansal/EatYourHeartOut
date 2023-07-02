@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>GeoCode.Farm Retrieve Latitude and longitude from &#13;
+</description>
+        <name>Get Location</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://www.geocode.farm/v3/xml/forward/</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 02:36:35</sys_created_on>
+        <sys_id>26056d9997f7211080e3fef3a253af5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Location</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sys_rest_message_26056d9997f7211080e3fef3a253af5d</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 02:37:49</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
