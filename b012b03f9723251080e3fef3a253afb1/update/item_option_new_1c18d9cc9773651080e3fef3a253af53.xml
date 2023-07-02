@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</cat_item>
         <category/>
@@ -29,7 +29,7 @@
         <layout>normal</layout>
         <list_table>x_1083337_eat_order_menus</list_table>
         <lookup_label>name</lookup_label>
-        <lookup_price/>
+        <lookup_price>price</lookup_price>
         <lookup_table>x_1083337_eat_order_menus</lookup_table>
         <lookup_unique>false</lookup_unique>
         <lookup_value>sys_id</lookup_value>
@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>orderMenuItem</name>
-        <order>200</order>
+        <order>2300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -49,7 +49,7 @@
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
-        <rec_lookup_price/>
+        <rec_lookup_price>recurring_price</rec_lookup_price>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1083337_eat_ordering_system</record_producer_table>
@@ -72,17 +72,17 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-06-28 04:30:34</sys_created_on>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-07-01 08:46:00</sys_created_on>
         <sys_id>1c18d9cc9773651080e3fef3a253af53</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>What do you want to order?</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>item_option_new_1c18d9cc9773651080e3fef3a253af53</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-29 04:04:35</sys_updated_on>
+        <sys_updated_on>2023-07-02 11:44:51</sys_updated_on>
         <table/>
         <tooltip/>
         <type>18</type>
@@ -93,13 +93,14 @@
         <validate_regex/>
         <variable_name/>
         <variable_set/>
-        <variable_width/>
+        <variable_width>75</variable_width>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
+        <x_1083337_eat_reference/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=1c18d9cc9773651080e3fef3a253af53"/>
     <fx_price action="delete_multiple" query="id=1c18d9cc9773651080e3fef3a253af53"/>

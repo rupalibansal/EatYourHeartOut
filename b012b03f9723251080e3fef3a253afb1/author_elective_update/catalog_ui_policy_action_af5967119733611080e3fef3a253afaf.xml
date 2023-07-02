@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</catalog_item>
+        <catalog_variable>IO:2b3b19c097b3651080e3fef3a253af1f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 12:12:49</sys_created_on>
+        <sys_id>af5967119733611080e3fef3a253afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>card_info</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_af5967119733611080e3fef3a253afaf</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 12:12:49</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Cloud Kitchen UI policy">fa49e7dd97ff211080e3fef3a253afdf</ui_policy>
+        <variable>card_info</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>catalog_ui_policy_action_af5967119733611080e3fef3a253afaf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</catalog_item><catalog_variable>IO:2b3b19c097b3651080e3fef3a253af1f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-07-02 12:12:49</sys_created_on><sys_id>af5967119733611080e3fef3a253afaf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>card_info</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>catalog_ui_policy_action_af5967119733611080e3fef3a253afaf</sys_update_name><sys_updated_by>shey.delacruz</sys_updated_by><sys_updated_on>2023-07-02 12:12:49</sys_updated_on><table/><ui_policy display_value="Cloud Kitchen UI policy">fa49e7dd97ff211080e3fef3a253afdf</ui_policy><variable>card_info</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>191334178</payload_hash>
+        <record_name>card_info</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 12:12:49</sys_created_on>
+        <sys_id>a75967119733611080e3fef3a253afb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18916851cc10000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 12:12:49</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>2f5967110a33611050613a104f7987b2</update_guid>
+        <update_guid_history>2f5967110a33611050613a104f7987b2:191334178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="card_info">6d2a23519733611080e3fef3a253aff3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 12:16:15</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>a0cda16238294b1e96402b7bebbe1a49</sys_id>
+        <sys_metadata>af5967119733611080e3fef3a253afaf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>card_info</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_af5967119733611080e3fef3a253afaf</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_af5967119733611080e3fef3a253afaf">a75967119733611080e3fef3a253afb3</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 12:16:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

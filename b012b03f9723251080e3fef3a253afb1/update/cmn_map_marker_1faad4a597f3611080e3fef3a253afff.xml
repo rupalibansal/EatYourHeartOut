@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_marker">
+    <cmn_map_marker action="INSERT_OR_UPDATE">
+        <coordinate_definition display_value="Eat Map Definitions">9049506597f3611080e3fef3a253af42</coordinate_definition>
+        <data_item display_value="EatIncidents">41389ce197f3611080e3fef3a253af1c</data_item>
+        <data_item_table>sys_choice</data_item_table>
+        <display_field>value</display_field>
+        <display_value_script><![CDATA[(function(current) {
+  answer = "";
+})(current);]]></display_value_script>
+        <name>Eat Marker</name>
+        <sys_class_name>cmn_map_marker</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 15:54:40</sys_created_on>
+        <sys_id>1faad4a597f3611080e3fef3a253afff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Eat Marker</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>cmn_map_marker_1faad4a597f3611080e3fef3a253afff</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 16:25:48</sys_updated_on>
+        <title_type>field</title_type>
+    </cmn_map_marker>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</catalog_item>
+        <catalog_variable>IO:9e7b59c097b3651080e3fef3a253affe</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-07-01 08:46:02</sys_created_on>
+        <sys_id>2c70b1899773691080e3fef3a253af65</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>delivery_address</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2c70b1899773691080e3fef3a253af65</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 11:43:43</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'delivery_address' mandatory &amp; visible depending on 'delivery_type'">6870b1899773691080e3fef3a253af63</ui_policy>
+        <variable>delivery_address</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

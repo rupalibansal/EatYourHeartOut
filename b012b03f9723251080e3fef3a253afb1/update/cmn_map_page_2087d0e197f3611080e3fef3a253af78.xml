@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Yogododji, Africa</center_address>
+        <center_latitude>14.883333</center_latitude>
+        <center_longitude>-1.766667</center_longitude>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter display_value="EatMapFilter">a03cdce597f3611080e3fef3a253af82</filter>
+        <initial_zoom>2</initial_zoom>
+        <name>x_1083337_eat_Eat Delivery</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script/>
+        <show_device_location>true</show_device_location>
+        <suffix>Eat Delivery</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 15:35:20</sys_created_on>
+        <sys_id>2087d0e197f3611080e3fef3a253af78</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1083337_eat_Eat Delivery</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>cmn_map_page_2087d0e197f3611080e3fef3a253af78</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 16:22:11</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>true</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>

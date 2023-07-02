@@ -3,42 +3,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_name</element>
             <position>0</position>
-            <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-28 15:29:25</sys_created_on>
-            <sys_id>9c00bb8c97fb651080e3fef3a253af2e</sys_id>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-07-02 16:33:17</sys_created_on>
+            <sys_id>8bf460619737611080e3fef3a253af25</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1083337_eat_customer" sys_domain="global" view="Default view">f88f274c97fb651080e3fef3a253af47</sys_ui_section>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 15:29:25</sys_updated_on>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-02 16:33:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_mobile</element>
             <position>1</position>
-            <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-28 15:29:25</sys_created_on>
-            <sys_id>9400bb8c97fb651080e3fef3a253af2f</sys_id>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-07-02 16:33:17</sys_created_on>
+            <sys_id>8ff460619737611080e3fef3a253af25</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1083337_eat_customer" sys_domain="global" view="Default view">f88f274c97fb651080e3fef3a253af47</sys_ui_section>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 15:29:25</sys_updated_on>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-02 16:33:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_email</element>
             <position>2</position>
-            <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-28 15:29:25</sys_created_on>
-            <sys_id>9800bb8c97fb651080e3fef3a253af2f</sys_id>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-07-02 16:33:17</sys_created_on>
+            <sys_id>83f460619737611080e3fef3a253af26</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1083337_eat_customer" sys_domain="global" view="Default view">f88f274c97fb651080e3fef3a253af47</sys_ui_section>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 15:29:25</sys_updated_on>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-02 16:33:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>3</position>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-07-02 16:33:17</sys_created_on>
+            <sys_id>87f460619737611080e3fef3a253af26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1083337_eat_customer" sys_domain="global" view="Default view">f88f274c97fb651080e3fef3a253af47</sys_ui_section>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-02 16:33:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longtitude</element>
+            <position>4</position>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-07-02 16:33:17</sys_created_on>
+            <sys_id>8bf460619737611080e3fef3a253af26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1083337_eat_customer" sys_domain="global" view="Default view">f88f274c97fb651080e3fef3a253af47</sys_ui_section>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-02 16:33:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

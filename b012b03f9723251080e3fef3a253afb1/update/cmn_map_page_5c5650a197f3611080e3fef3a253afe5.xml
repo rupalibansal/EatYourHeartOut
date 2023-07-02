@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>-37.73076722835527, 144.74342112233794</center_address>
+        <center_latitude>-37.7308617</center_latitude>
+        <center_longitude>144.7434319</center_longitude>
+        <controls_size>small</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>2</initial_zoom>
+        <name>x_1083337_eat_Eat_loc_rest_api</name>
+        <overview>false</overview>
+        <refresh_on_zoom>true</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[//setup new GlideRecord query on the incident table
+var now_GR = new GlideRecord("incident");
+//add condition for priority 1
+gr.addQuery('priority', '1');
+//add condition for active incidents
+gr.addActiveQuery();
+//execute the query
+gr.query();
+ 
+//loop through the list of incidents returned by the query
+while (gr.next()) {
+ 
+ //create a new map item to display - linked to the current incident record
+ var item = map.addItem(now_GR);
+ //add the latitude value from the incident's location
+ item.latitude = gr.location.latitude;
+ //add the longitude value from the incident's location
+ item.longitude = gr.location.longitude;
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon51.png";
+ //set the icon size
+ item.icon_width = "16";
+ item.icon_height = "16";
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Eat_loc_rest_api</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 15:33:28</sys_created_on>
+        <sys_id>5c5650a197f3611080e3fef3a253afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083337_eat_Eat_loc_rest_api</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>cmn_map_page_5c5650a197f3611080e3fef3a253afe5</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 15:33:28</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>
