@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_group">
+    <pa_dashboards_group action="INSERT_OR_UPDATE">
+        <groups>d7477e1c97f7a51080e3fef3a253af0d,66177e1c97f7a51080e3fef3a253af86,0ca5361c97f7a51080e3fef3a253afe8,c5e6b25c97f7a51080e3fef3a253af2a,b6ab82b397a7251080e3fef3a253af1e</groups>
+        <name>Cloud Kitchen Dashboard Access Group</name>
+        <order>100</order>
+        <role_override>true</role_override>
+        <roles/>
+        <sys_class_name>pa_dashboards_group</sys_class_name>
+        <sys_created_by>nishi.shaw</sys_created_by>
+        <sys_created_on>2023-06-30 03:36:05</sys_created_on>
+        <sys_id>2d9fd360977be51080e3fef3a253af7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cloud Kitchen Dashboard Access Group</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>pa_dashboards_group_2d9fd360977be51080e3fef3a253af7c</sys_update_name>
+        <sys_updated_by>nishi.shaw</sys_updated_by>
+        <sys_updated_on>2023-06-30 03:37:29</sys_updated_on>
+        <users/>
+        <visible_to>3</visible_to>
+    </pa_dashboards_group>
+</record_update>
