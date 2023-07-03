@@ -58,6 +58,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Pick up Location" max_length="100" name="pickup_location" type="string"/>
         <element label="Price" max_length="40" name="price" type="float"/>
+        <element function_definition="glidefunction:datediff(closed_at,sys_created_on)" function_field="true" label="WaitTime" max_length="40" name="rpt_waittime" read_only="true" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" label="Store Location" max_length="100" name="store_location_pickup" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="testMobile" mandatory="true" max_length="40" name="testmobile" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="test field" max_length="100" name="test_field" type="string"/>
