@@ -20,20 +20,20 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>none</label>
+            <label>Order Received</label>
             <language>en</language>
             <name>x_1083337_eat_ordering_system</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-28 07:14:12</sys_created_on>
+            <sys_created_on>2023-06-28 07:01:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>caae3dc49737651080e3fef3a253af2a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 07:16:05</sys_updated_on>
-            <value>0</value>
+            <sys_id>11dbfdc09737651080e3fef3a253afd1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 12:55:11</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -59,21 +59,21 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Order Received</label>
+            <inactive>true</inactive>
+            <label>none</label>
             <language>en</language>
             <name>x_1083337_eat_ordering_system</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-28 07:01:51</sys_created_on>
+            <sys_created_on>2023-06-28 07:14:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>11dbfdc09737651080e3fef3a253afd1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 07:16:05</sys_updated_on>
-            <value>1</value>
+            <sys_id>caae3dc49737651080e3fef3a253af2a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 13:01:16</sys_updated_on>
+            <value>0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -83,16 +83,16 @@
             <label>Order Confirmed</label>
             <language>en</language>
             <name>x_1083337_eat_ordering_system</name>
-            <sequence>2</sequence>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>rupali.bansal</sys_created_by>
             <sys_created_on>2023-06-28 07:01:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>59dbfdc09737651080e3fef3a253afd3</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 07:16:05</sys_updated_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 12:55:11</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -103,6 +103,26 @@
             <label>Order Prepared</label>
             <language>en</language>
             <name>x_1083337_eat_ordering_system</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-07-03 12:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cfc3cb197b7a11080e3fef3a253affa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 12:59:43</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Order Complete</label>
+            <language>en</language>
+            <name>x_1083337_eat_ordering_system</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>rupali.bansal</sys_created_by>
@@ -110,16 +130,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1ddbfdc09737651080e3fef3a253afd5</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 07:16:05</sys_updated_on>
+            <sys_mod_count>13</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 13:00:20</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Order Complete</label>
             <language>en</language>
             <name>x_1083337_eat_ordering_system</name>
@@ -130,9 +150,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>95dbfdc09737651080e3fef3a253afe4</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-06-28 07:16:05</sys_updated_on>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 13:01:16</sys_updated_on>
             <value>4</value>
         </sys_choice>
     </sys_choice>

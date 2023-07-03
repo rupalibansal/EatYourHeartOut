@@ -59,21 +59,41 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Delivered</label>
+            <language>en</language>
+            <name>x_1083337_eat_order_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>rupali.bansal</sys_created_by>
+            <sys_created_on>2023-06-30 06:20:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3075003c97fbe51080e3fef3a253af27</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 13:07:45</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Packing</label>
             <language>en</language>
             <name>x_1083337_eat_order_task</name>
             <sequence>2</sequence>
             <synonyms/>
-            <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-28 07:04:12</sys_created_on>
+            <sys_created_by>shey.delacruz</sys_created_by>
+            <sys_created_on>2023-07-03 13:11:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bf5c39049737651080e3fef3a253af03</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>4f500db597b7a11080e3fef3a253afe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>shey.delacruz</sys_updated_by>
-            <sys_updated_on>2023-07-03 12:51:21</sys_updated_on>
-            <value>3</value>
+            <sys_updated_on>2023-07-03 13:11:23</sys_updated_on>
+            <value>9</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -90,9 +110,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>735c39049737651080e3fef3a253af06</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>shey.delacruz</sys_updated_by>
-            <sys_updated_on>2023-07-03 07:59:08</sys_updated_on>
+            <sys_updated_on>2023-07-03 13:11:23</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -100,7 +120,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Preparing For Delivery</label>
+            <label>Ready for Delivery</label>
             <language>en</language>
             <name>x_1083337_eat_order_task</name>
             <sequence>4</sequence>
@@ -110,9 +130,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e47d2cbd9737a11080e3fef3a253aff0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-07-03 11:48:44</sys_updated_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 13:11:23</sys_updated_on>
             <value>7</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -130,9 +150,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f875003c97fbe51080e3fef3a253af24</sys_id>
-            <sys_mod_count>6</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-07-03 11:48:44</sys_updated_on>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 13:11:23</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -146,14 +166,14 @@
             <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>rupali.bansal</sys_created_by>
-            <sys_created_on>2023-06-30 06:20:04</sys_created_on>
+            <sys_created_on>2023-06-28 07:04:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3075003c97fbe51080e3fef3a253af27</sys_id>
-            <sys_mod_count>6</sys_mod_count>
-            <sys_updated_by>rupali.bansal</sys_updated_by>
-            <sys_updated_on>2023-07-03 11:48:44</sys_updated_on>
-            <value>6</value>
+            <sys_id>bf5c39049737651080e3fef3a253af03</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>shey.delacruz</sys_updated_by>
+            <sys_updated_on>2023-07-03 13:11:23</sys_updated_on>
+            <value>3</value>
         </sys_choice>
     </sys_choice>
 </record_update>
