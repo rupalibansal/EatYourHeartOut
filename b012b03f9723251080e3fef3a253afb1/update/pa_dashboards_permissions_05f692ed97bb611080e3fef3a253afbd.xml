@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Cloud Kitchen Summary Dashboard">be80ac2097bfa51080e3fef3a253af9f</dashboard>
+        <delete>false</delete>
+        <group display_value="Eat Req Admins" name="Eat Req Admins">b6ab82b397a7251080e3fef3a253af1e</group>
+        <identity>b6ab82b397a7251080e3fef3a253af1e</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-07-03 00:51:14</sys_created_on>
+        <sys_id>05f692ed97bb611080e3fef3a253afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b6ab82b397a7251080e3fef3a253af1e</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_05f692ed97bb611080e3fef3a253afbd</sys_update_name>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-07-03 00:51:14</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

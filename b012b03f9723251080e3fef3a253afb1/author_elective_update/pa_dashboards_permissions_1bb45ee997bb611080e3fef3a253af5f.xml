@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="DELETE">
+        <dashboard display_value="Cloud Kitchen Summary Dashboard">be80ac2097bfa51080e3fef3a253af9f</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>x_1083337_eat.admin</identity>
+        <read>true</read>
+        <role display_value="x_1083337_eat.admin" name="x_1083337_eat.admin">b21b027397a7251080e3fef3a253af5c</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-07-03 00:41:34</sys_created_on>
+        <sys_id>1bb45ee997bb611080e3fef3a253af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083337_eat.admin</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_1bb45ee997bb611080e3fef3a253af5f</sys_update_name>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-07-03 00:41:34</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>pa_dashboards_permissions_1bb45ee997bb611080e3fef3a253af5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions"><pa_dashboards_permissions action="INSERT_OR_UPDATE"><dashboard display_value="Cloud Kitchen Summary Dashboard">be80ac2097bfa51080e3fef3a253af9f</dashboard><delete>false</delete><group/><identity>x_1083337_eat.admin</identity><read>true</read><role display_value="x_1083337_eat.admin" name="x_1083337_eat.admin">b21b027397a7251080e3fef3a253af5c</role><sys_class_name>pa_dashboards_permissions</sys_class_name><sys_created_by>rupali.bansal</sys_created_by><sys_created_on>2023-07-03 00:41:34</sys_created_on><sys_id>1bb45ee997bb611080e3fef3a253af5f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1083337_eat.admin</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>pa_dashboards_permissions_1bb45ee997bb611080e3fef3a253af5f</sys_update_name><sys_updated_by>rupali.bansal</sys_updated_by><sys_updated_on>2023-07-03 00:41:34</sys_updated_on><type>1</type><user/><write>false</write></pa_dashboards_permissions></record_update>]]></payload>
+        <payload_hash>57903911</payload_hash>
+        <record_name>x_1083337_eat.admin</record_name>
+        <reverted_from/>
+        <source>a751d62997bb611080e3fef3a253af26</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-07-03 00:41:34</sys_created_on>
+        <sys_id>13b45ee997bb611080e3fef3a253af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18919329ac00000001</sys_recorded_at>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-07-03 00:41:34</sys_updated_on>
+        <type>Dashboard Permissions</type>
+        <update_guid>5bb45ee9b2bb61101643f88535c1b761</update_guid>
+        <update_guid_history>5bb45ee9b2bb61101643f88535c1b761:57903911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1083337_eat.admin">5585926d97bb611080e3fef3a253afa7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-07-03 00:44:58</sys_created_on>
+        <sys_db_object display_value="" name="pa_dashboards_permissions">pa_dashboards_permissions</sys_db_object>
+        <sys_id>0cc08181d68d46ba82b4ba4e41428964</sys_id>
+        <sys_metadata>1bb45ee997bb611080e3fef3a253af5f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1083337_eat.admin</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>pa_dashboards_permissions_1bb45ee997bb611080e3fef3a253af5f</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_permissions_1bb45ee997bb611080e3fef3a253af5f">13b45ee997bb611080e3fef3a253af62</sys_update_version>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-07-03 00:44:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</catalog_item>
+        <catalog_variable>IO:9e7b59c097b3651080e3fef3a253affe</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 03:47:35</sys_created_on>
+        <sys_id>47822764977be51080e3fef3a253af33</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>delivery_address</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_47822764977be51080e3fef3a253af33</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 04:20:34</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'delivery_address' visible depending on 'delivery_type'">83822764977be51080e3fef3a253af31</ui_policy>
+        <variable>delivery_address</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>catalog_ui_policy_action_47822764977be51080e3fef3a253af33</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</catalog_item><catalog_variable>IO:9e7b59c097b3651080e3fef3a253affe</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-06-30 03:47:35</sys_created_on><sys_id>47822764977be51080e3fef3a253af33</sys_id><sys_mod_count>1</sys_mod_count><sys_name>delivery_address</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>catalog_ui_policy_action_47822764977be51080e3fef3a253af33</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-06-30 04:20:34</sys_updated_on><table/><ui_policy display_value="Make 'delivery_address' visible depending on 'delivery_type'">83822764977be51080e3fef3a253af31</ui_policy><variable>delivery_address</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>2010074807</payload_hash>
+        <record_name>delivery_address</record_name>
+        <reverted_from/>
+        <source>f11a276c977be51080e3fef3a253afee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 04:20:34</sys_created_on>
+        <sys_id>9a1a676c977be51080e3fef3a253af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890a8808e80000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 04:20:34</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>121a676c3e7be510576b7cabf3f2a99f</update_guid>
+        <update_guid_history>121a676c3e7be510576b7cabf3f2a99f:2010074807,521a676c0b7be5104f1d8763098e219c:1738409163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="delivery_address">bdeb7b6097fbe51080e3fef3a253af73</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 05:38:21</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>3c47270d23874fa99f6bdb7cebec9ba9</sys_id>
+        <sys_metadata>47822764977be51080e3fef3a253af33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delivery_address</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_47822764977be51080e3fef3a253af33</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_47822764977be51080e3fef3a253af33">9a1a676c977be51080e3fef3a253af9f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 05:38:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

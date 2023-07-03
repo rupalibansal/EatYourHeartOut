@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</cat_item>
+        <cat_variable>IO:1c18d9cc9773651080e3fef3a253af53</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get price</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var msg = 'hello! ';
+    alert(msg);
+
+	var com = g_form.getValue('orderMenuItem');
+	alert(com.price);
+    g_form.getReference('orderedItemRef', setPrice); //TEST Item this works but lookup - for reference so this is correct	
+	//g_form.getReference('orderMenuItem', setPrice); //This is Dropdown, we can't use REFERENCE here
+	
+}
+
+/*This works if you're using a Reference Question but not on DropDown */
+function setPrice(comboItem) { // reference is passed into callback as first arguments
+
+    // 	if (selectedMenu.getValue('price') == 'true') {
+    //       alert('found! ' + selectedMenu + selectedMenu.name + selectedMenu.price);
+    //    }
+    alert('called???');
+
+    var priceVal = comboItem.price;
+    var spMsg = ' last found! ' + comboItem + ' ' + comboItem.name + ' ' + comboItem.price;
+    alert(spMsg);
+
+    g_form.setValue('orderPrice', priceVal);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-29 03:48:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bd8d65c9777a51080e3fef3a253afbe</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Get price</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>catalog_script_client_2bd8d65c9777a51080e3fef3a253afbe</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 00:52:05</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>catalog_script_client_2bd8d65c9777a51080e3fef3a253afbe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;true&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Cloud Kitchen"&gt;21d5914c9773651080e3fef3a253af0c&lt;/cat_item&gt;&lt;cat_variable&gt;IO:1c18d9cc9773651080e3fef3a253af53&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Get price&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var msg = 'hello! ';
+    alert(msg);
+
+	var com = g_form.getValue('orderMenuItem');
+	alert(com.price);
+    g_form.getReference('orderedItemRef', setPrice); //TEST Item this works but lookup - for reference so this is correct	
+	//g_form.getReference('orderMenuItem', setPrice); //This is Dropdown, we can't use REFERENCE here
+	
+}
+
+/*This works if you're using a Reference Question but not on DropDown */
+function setPrice(comboItem) { // reference is passed into callback as first arguments
+
+    // 	if (selectedMenu.getValue('price') == 'true') {
+    //       alert('found! ' + selectedMenu + selectedMenu.name + selectedMenu.price);
+    //    }
+    alert('called???');
+
+    var priceVal = comboItem.price;
+    var spMsg = ' last found! ' + comboItem + ' ' + comboItem.name + ' ' + comboItem.price;
+    alert(spMsg);
+
+    g_form.setValue('orderPrice', priceVal);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shey.delacruz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-29 03:48:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2bd8d65c9777a51080e3fef3a253afbe&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get price&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Eat your Heart Out " source="x_1083337_eat"&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Eat your Heart Out "&gt;b012b03f9723251080e3fef3a253afb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_2bd8d65c9777a51080e3fef3a253afbe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shey.delacruz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-30 00:52:05&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1742634331</payload_hash>
+        <record_name>Get price</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 00:52:05</sys_created_on>
+        <sys_id>406ab2ac97b7e51080e3fef3a253aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18909c927ac0000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-30 00:52:05</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>886ab2acf2b7e5100c78a19a77fc1bf7</update_guid>
+        <update_guid_history>886ab2acf2b7e5100c78a19a77fc1bf7:-1742634331,49e463d8f5bba510beca98e091cdf622:630822690,4a942b5863bba51023f1efa32ee642d2:-1061548217,fe5f5754fbbba51045d028f3d39607a1:863952827,01de1354e9bba5108cd619f1bc03d73c:448447434,e369ea9c4cb7a5100838d26181703cbd:-1624811065,0919a29c77b7a510641cba61e8b43aa6:1475909169,a0d8225c3ab7a510718d1d91a4bf4783:2063276713,3ab8ea5cf6b7a510e7497f2918a5a07d:-887321724,b858665c49b7a510d36dae3b051fd1ab:-1754453266,52f72e1c02b7a5103f31589756eda5ae:1512686532,0c9666d8a9b7a5105037c0538db879df:-750397935,0ce4265869b7a510f7332f50484d851a:108117364,dec2a2d40bb7a51053c25b6458019711:-1655468587,b142a2543db7a5106d98f164ad0a966f:-957355940,3981e2942ab7a510e4ae2b958bdec738:-1682745579,73b0e6543eb7a510a687f6a1a886ae06:-599004542,79ef1a14f5b7a5104d3f4d5b51a0d7aa:-127274101,d7cf1a1491b7a510e706b05f395186a4:-793120791,019fd2140ab7a510a00391c34b122a4e:-1189878379,adced6d049b7a510fd369d585ef8a004:491279258,e89e56d0d8b7a51096168c58cde9b165:729284011,048ed2d053b7a5107034ac1a8cfe15d8:-184346073,176e92d00ab7a510778f16f7b464ec30:707147145,851e1e9009b7a510e95678fe0c60eebf:2075743638,65ed5a908fb7a5106f250a7819c7354b:683524443,dc8cd61087b7a510d25e3a74ae084566:-1094057637,2ab9569c3777a5104ec7b8a4659c30e8:-179914599,b659165c7677a51036eda7ce5122b64f:544372530,a7091a5c0a77a5105aade871e756b984:-382973621</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Get price">b91a676c977be51080e3fef3a253af01</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 04:20:33</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>514ddf37035242009f33617cb6099000</sys_id>
+        <sys_metadata>2bd8d65c9777a51080e3fef3a253afbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get price</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>catalog_script_client_2bd8d65c9777a51080e3fef3a253afbe</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_2bd8d65c9777a51080e3fef3a253afbe">406ab2ac97b7e51080e3fef3a253aff8</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 04:20:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

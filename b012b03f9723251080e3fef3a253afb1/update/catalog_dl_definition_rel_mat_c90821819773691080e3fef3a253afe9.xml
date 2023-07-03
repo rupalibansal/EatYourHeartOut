@@ -9,19 +9,19 @@
         <source_catalog_variable>IO:3cf7748197bf291080e3fef3a253affd</source_catalog_variable>
         <source_table/>
         <source_table_field/>
-        <source_variable>test_question_menu_item</source_variable>
+        <source_variable>question_menu_item</source_variable>
         <sys_class_name>catalog_dl_definition_rel_mat</sys_class_name>
         <sys_created_by>rupali.bansal</sys_created_by>
         <sys_created_on>2023-07-01 08:11:47</sys_created_on>
         <sys_id>c90821819773691080e3fef3a253afe9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>IO:3cf7748197bf291080e3fef3a253affd</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>catalog_dl_definition_rel_mat_c90821819773691080e3fef3a253afe9</sys_update_name>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-01 12:34:47</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-02 11:41:10</sys_updated_on>
         <variable_set/>
     </catalog_dl_definition_rel_mat>
 </record_update>

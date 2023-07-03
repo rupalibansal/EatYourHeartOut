@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-28 04:53:32</sys_created_on>
+        <sys_id>6d7e5dc497b3651080e3fef3a253af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Eat_Record_Producer</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6d7e5dc497b3651080e3fef3a253af5b</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-06-28 04:53:32</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sc_cat_item_catalog_6d7e5dc497b3651080e3fef3a253af5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-06-28 04:53:32</sys_created_on><sys_id>6d7e5dc497b3651080e3fef3a253af5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Eat_Record_Producer</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>sc_cat_item_catalog_6d7e5dc497b3651080e3fef3a253af5b</sys_update_name><sys_updated_by>shey.delacruz</sys_updated_by><sys_updated_on>2023-06-28 04:53:32</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1870881586</payload_hash>
+        <record_name>Service Catalog.Eat_Record_Producer</record_name>
+        <reverted_from/>
+        <source>f11a276c977be51080e3fef3a253afee</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 04:20:34</sys_created_on>
+        <sys_id>121a676c977be51080e3fef3a253afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890a8809290000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 04:20:34</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>561a676c287be510ec5ae5ec6f4541a6</update_guid>
+        <update_guid_history>561a676c287be510ec5ae5ec6f4541a6:1870881586,657e5dc4d3b36510e02ad80146cba25e:1407756454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Eat_Record_Producer">5e1a676c977be51080e3fef3a253afaa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 04:20:34</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>01399db597ea46b7801d75285ab9a019</sys_id>
+        <sys_metadata>6d7e5dc497b3651080e3fef3a253af5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Eat_Record_Producer</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6d7e5dc497b3651080e3fef3a253af5b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6d7e5dc497b3651080e3fef3a253af5b">121a676c977be51080e3fef3a253afa7</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 04:20:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

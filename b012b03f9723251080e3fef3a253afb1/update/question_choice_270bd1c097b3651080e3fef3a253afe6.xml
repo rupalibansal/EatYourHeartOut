@@ -5,8 +5,8 @@
         <published_ref/>
         <question display_value="Delivery Type">1baa5d8097b3651080e3fef3a253afdb</question>
         <sys_class_name>question_choice</sys_class_name>
-        <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-06-28 04:38:39</sys_created_on>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-07-01 08:46:00</sys_created_on>
         <sys_id>270bd1c097b3651080e3fef3a253afe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Pick-up</sys_name>
@@ -14,8 +14,8 @@
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>question_choice_270bd1c097b3651080e3fef3a253afe6</sys_update_name>
-        <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-28 04:38:39</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-01 08:48:01</sys_updated_on>
         <text>Pick-up</text>
         <value>1</value>
     </question_choice>

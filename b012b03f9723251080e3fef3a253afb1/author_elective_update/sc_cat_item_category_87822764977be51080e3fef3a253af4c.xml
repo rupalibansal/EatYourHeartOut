@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</sc_cat_item>
+        <sc_category display_value="Cloud Kitchen">5526da4c9777651080e3fef3a253afd0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-06-30 03:47:35</sys_created_on>
+        <sys_id>87822764977be51080e3fef3a253af4c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cloud Kitchen.Cloud Kitchen</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sc_cat_item_category_87822764977be51080e3fef3a253af4c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 04:20:34</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sc_cat_item_category_87822764977be51080e3fef3a253af4c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</sc_cat_item><sc_category display_value="Cloud Kitchen">5526da4c9777651080e3fef3a253afd0</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-06-30 03:47:35</sys_created_on><sys_id>87822764977be51080e3fef3a253af4c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Cloud Kitchen.Cloud Kitchen</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>sc_cat_item_category_87822764977be51080e3fef3a253af4c</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-06-30 04:20:34</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1787798434</payload_hash>
+        <record_name>Cloud Kitchen.Cloud Kitchen</record_name>
+        <reverted_from/>
+        <source>e9eb7b6097fbe51080e3fef3a253af24</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 05:38:22</sys_created_on>
+        <sys_id>35ebbb6097fbe51080e3fef3a253af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1890acf42db0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 05:38:22</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>79ebbb603dfbe5104e276b2214c88932</update_guid>
+        <update_guid_history>79ebbb603dfbe5104e276b2214c88932:1787798434,1a1a676c367be5109414dd764a9adfdd:1828270742</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cloud Kitchen.Cloud Kitchen">b1ebbb6097fbe51080e3fef3a253af37</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 05:38:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>09ce8ee3f35b4e80a27a0b3130bc57c4</sys_id>
+        <sys_metadata>87822764977be51080e3fef3a253af4c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Kitchen.Cloud Kitchen</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_87822764977be51080e3fef3a253af4c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_87822764977be51080e3fef3a253af4c">35ebbb6097fbe51080e3fef3a253af33</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 05:38:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
