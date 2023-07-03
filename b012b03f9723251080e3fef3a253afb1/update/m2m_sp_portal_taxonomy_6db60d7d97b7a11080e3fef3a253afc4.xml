@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy">
+    <m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sp_portal display_value="Eat Your Heart Out">05f6c7c0977b651080e3fef3a253af31</sp_portal>
+        <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-03 13:39:08</sys_created_on>
+        <sys_id>6db60d7d97b7a11080e3fef3a253afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Eat Your Heart Out.Employee</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>m2m_sp_portal_taxonomy_6db60d7d97b7a11080e3fef3a253afc4</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-03 13:39:08</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+    </m2m_sp_portal_taxonomy>
+</record_update>

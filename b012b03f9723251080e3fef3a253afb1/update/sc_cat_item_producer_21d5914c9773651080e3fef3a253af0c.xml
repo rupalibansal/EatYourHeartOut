@@ -13,7 +13,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<table style="border-collapse: collapse; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellspacing="10" cellpadding="10"><tbody><tr><td style="width: 38.9095%;"><img style="font-size: 13.3333px; display: block; margin-left: auto; margin-right: auto;" src="x_1083337_eat.EatSmall.jpg" alt="Eat Your Heart Out " width="313" height="157" /></td><td style="width: 61.0905%;">Italian cuisine, coupled with its unique shared style dining concept as essayed by its slogan “Amore di Merrier”, made us an instant hit. We brought the Italian family art of eating for everyone to enjoy. An Italian passion evident in every item on our menu, authentically prepared with the finest ingredients and built on a wide selection of Australian-Italian flavors.</td></tr></tbody></table>]]></description>
+        <description><![CDATA[<table style="border-collapse: collapse; width: 100%;" border="0"><tbody><tr><td style="width: 35.0186%;"><img style="font-size: 13.3333px; display: block; margin-left: auto; margin-right: auto;" src="x_1083337_eat.EatSmall.jpg" alt="Eat Your Heart Out " width="313" height="157" /></td><td style="width: 1.43772%;"> </td><td style="width: 63.5675%; text-align: left;"> Italian cuisine, coupled with its unique shared style dining concept as essayed by its slogan “Amore di Merrier”, made us an instant hit. We brought the Italian family art of eating for everyone to enjoy. An Italian passion evident in every item on our menu, authentically prepared with the finest ingredients and built on a wide selection of Australian-Italian flavors.</td></tr></tbody></table>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -87,14 +87,14 @@
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-06-28 04:16:55</sys_created_on>
         <sys_id>21d5914c9773651080e3fef3a253af0c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Cloud Kitchen</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sc_cat_item_producer_21d5914c9773651080e3fef3a253af0c</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-03 00:33:01</sys_updated_on>
+        <sys_updated_on>2023-07-03 14:10:44</sys_updated_on>
         <table_name>x_1083337_eat_ordering_system</table_name>
         <taxonomy_topic/>
         <template/>

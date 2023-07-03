@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Cloud Kitchen">21d5914c9773651080e3fef3a253af0c</cat_item>
         <category/>
@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>customer_name</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -35,17 +35,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
-        <map_to_field>true</map_to_field>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>customer_name</name>
+        <name>formatter15</name>
         <order>1300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Customer Name</question_text>
+        <question_text/>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -72,20 +72,20 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>rupali.bansal</sys_created_by>
-        <sys_created_on>2023-07-01 08:46:01</sys_created_on>
-        <sys_id>b2869d4c9773651080e3fef3a253af1e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Customer Name</sys_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-03 14:43:14</sys_created_on>
+        <sys_id>6c6515fd97f7a11080e3fef3a253af92</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>formatter15</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_update_name>item_option_new_b2869d4c9773651080e3fef3a253af1e</sys_update_name>
+        <sys_update_name>item_option_new_6c6515fd97f7a11080e3fef3a253af92</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-03 14:43:52</sys_updated_on>
+        <sys_updated_on>2023-07-03 14:43:46</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>24</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -102,22 +102,22 @@
         <write_roles/>
         <x_1083337_eat_reference/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=b2869d4c9773651080e3fef3a253af1e"/>
-    <fx_price action="delete_multiple" query="id=b2869d4c9773651080e3fef3a253af1e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c6515fd97f7a11080e3fef3a253af92"/>
+    <fx_price action="delete_multiple" query="id=6c6515fd97f7a11080e3fef3a253af92"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>b2869d4c9773651080e3fef3a253af1e</id>
+        <id>6c6515fd97f7a11080e3fef3a253af92</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-06-28 04:20:30</sys_created_on>
-        <sys_id>3de6154c9773651080e3fef3a253af17</sys_id>
+        <sys_created_on>2023-07-03 14:43:14</sys_created_on>
+        <sys_id>e46515fd97f7a11080e3fef3a253af95</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-28 04:20:30</sys_updated_on>
+        <sys_updated_on>2023-07-03 14:43:14</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -125,16 +125,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>b2869d4c9773651080e3fef3a253af1e</id>
+        <id>6c6515fd97f7a11080e3fef3a253af92</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-06-28 04:20:30</sys_created_on>
-        <sys_id>b1e6154c9773651080e3fef3a253af17</sys_id>
+        <sys_created_on>2023-07-03 14:43:14</sys_created_on>
+        <sys_id>6c6515fd97f7a11080e3fef3a253af94</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-06-28 04:20:30</sys_updated_on>
+        <sys_updated_on>2023-07-03 14:43:14</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
