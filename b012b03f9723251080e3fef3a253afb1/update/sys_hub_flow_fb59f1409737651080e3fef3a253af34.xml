@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Basic Flow for processing a requested order.</description>
         <internal_name>eat_order</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.delivery_type","label":"Trigger - Record Created or Updated➛Order Request Record➛Delivery Type","reference":"","reference_display":"Delivery Type","type":"choice","base_type":"choice","parent_table_name":"x_1083337_eat_ordering_system","column_name":"delivery_type","choices":[{"label":"Pickup","used":false,"image":"","rawLabel":"Pickup","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1083337_eat_ordering_system"}},{"label":"Delivery","used":false,"image":"","rawLabel":"Delivery","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1083337_eat_ordering_system"}}]},{"name":"38deaf76-541a-4b98-871c-54267223c22d.__dont_treat_as_error__","label":"12 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38deaf76-541a-4b98-871c-54267223c22d.__action_status__","label":"12 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38deaf76-541a-4b98-871c-54267223c22d.Table","label":"12 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38deaf76-541a-4b98-871c-54267223c22d.Record","label":"12 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c3c98a2-8b9f-4be1-9ded-343343272a61.__dont_treat_as_error__","label":"10 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c3c98a2-8b9f-4be1-9ded-343343272a61.__action_status__","label":"10 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c3c98a2-8b9f-4be1-9ded-343343272a61.email","label":"10 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.table_name","label":"8 - Update Record➛Order Request Table","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.record","label":"8 - Update Record➛Order Request Record","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.__dont_treat_as_error__","label":"6 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.__action_status__","label":"6 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.Table","label":"6 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.Record","label":"6 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.Table","label":"4 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.Record","label":"4 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b92fc8bf-80c7-4f7f-8af6-04e299f53163.__dont_treat_as_error__","label":"3 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b92fc8bf-80c7-4f7f-8af6-04e299f53163.__action_status__","label":"3 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b92fc8bf-80c7-4f7f-8af6-04e299f53163.state","label":"3 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Order Request Table","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.__dont_treat_as_error__","label":"2 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.__action_status__","label":"2 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.error_message","label":"2 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.status","label":"2 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.table_name","label":"2 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.record","label":"2 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.table_name","label":"2 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.record","label":"2 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Order Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1083337_eat_ordering_system","column_name":"number"},{"name":"Created or Updated_1.current.customer_name","label":"Trigger - Record Created or Updated➛Order Request Record➛Customer Name","reference":"","reference_display":"Customer Name","type":"string","base_type":"string","parent_table_name":"x_1083337_eat_ordering_system","column_name":"customer_name"},{"name":"Created or Updated_1.current.customer_email","label":"Trigger - Record Created or Updated➛Order Request Record➛Customer Email","reference":"","reference_display":"Customer Email","type":"string","base_type":"string","parent_table_name":"x_1083337_eat_ordering_system","column_name":"customer_email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Order Request Record","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request","type":"reference","base_type":"reference","attributes":{}},{"name":"9a3b0918-a45a-4eca-84f2-8b7b54ce3ceb.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a3b0918-a45a-4eca-84f2-8b7b54ce3ceb.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a3b0918-a45a-4eca-84f2-8b7b54ce3ceb.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a70bf3e5-0299-4cd1-bee5-a58e00ce92e7.state","label":"5 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"a70bf3e5-0299-4cd1-bee5-a58e00ce92e7.__action_status__","label":"5 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a70bf3e5-0299-4cd1-bee5-a58e00ce92e7.__dont_treat_as_error__","label":"5 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.Record","label":"5 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.Table","label":"5 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.__action_status__","label":"5 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.__dont_treat_as_error__","label":"5 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abb43acd-3793-4c3c-be16-43f3c6fde28c.state","label":"6 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"abb43acd-3793-4c3c-be16-43f3c6fde28c.__action_status__","label":"6 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abb43acd-3793-4c3c-be16-43f3c6fde28c.__dont_treat_as_error__","label":"6 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f07abeec-d144-414f-a960-9779ad45346a.state","label":"7 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"f07abeec-d144-414f-a960-9779ad45346a.__action_status__","label":"7 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f07abeec-d144-414f-a960-9779ad45346a.__dont_treat_as_error__","label":"7 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.Record","label":"12 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.Table","label":"12 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.__action_status__","label":"12 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.__dont_treat_as_error__","label":"12 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.record","label":"16 - Update Record➛Order Request Record","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.table_name","label":"16 - Update Record➛Order Request Table","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.__action_status__","label":"16 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.__dont_treat_as_error__","label":"16 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3b946f1e-f401-4370-bc82-6840e2871e70.state","label":"14 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"3b946f1e-f401-4370-bc82-6840e2871e70.__action_status__","label":"14 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3b946f1e-f401-4370-bc82-6840e2871e70.__dont_treat_as_error__","label":"14 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97395c62-1fd4-43f9-8723-d55f7a65d9bc.email","label":"15 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97395c62-1fd4-43f9-8723-d55f7a65d9bc.__action_status__","label":"15 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97395c62-1fd4-43f9-8723-d55f7a65d9bc.__dont_treat_as_error__","label":"15 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"97395c62-1fd4-43f9-8723-d55f7a65d9bc.__dont_treat_as_error__","label":"15 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97395c62-1fd4-43f9-8723-d55f7a65d9bc.__action_status__","label":"15 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97395c62-1fd4-43f9-8723-d55f7a65d9bc.email","label":"15 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3b946f1e-f401-4370-bc82-6840e2871e70.__dont_treat_as_error__","label":"14 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3b946f1e-f401-4370-bc82-6840e2871e70.__action_status__","label":"14 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3b946f1e-f401-4370-bc82-6840e2871e70.state","label":"14 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.__dont_treat_as_error__","label":"16 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.__action_status__","label":"16 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.table_name","label":"16 - Update Record➛Order Request Table","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65d037dc-d9de-4c1d-889f-2c951b81dfb7.record","label":"16 - Update Record➛Order Request Record","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.__dont_treat_as_error__","label":"12 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.__action_status__","label":"12 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.Table","label":"12 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7801c86-2cc3-4c20-bc3d-da83b7e4a326.Record","label":"12 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f07abeec-d144-414f-a960-9779ad45346a.__dont_treat_as_error__","label":"7 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f07abeec-d144-414f-a960-9779ad45346a.__action_status__","label":"7 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f07abeec-d144-414f-a960-9779ad45346a.state","label":"7 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"abb43acd-3793-4c3c-be16-43f3c6fde28c.__dont_treat_as_error__","label":"6 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abb43acd-3793-4c3c-be16-43f3c6fde28c.__action_status__","label":"6 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"abb43acd-3793-4c3c-be16-43f3c6fde28c.state","label":"6 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.__dont_treat_as_error__","label":"5 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.__action_status__","label":"5 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.Table","label":"5 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3f5faae9-7204-4cd3-9af6-14dda7b9b6f1.Record","label":"5 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a70bf3e5-0299-4cd1-bee5-a58e00ce92e7.__dont_treat_as_error__","label":"5 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a70bf3e5-0299-4cd1-bee5-a58e00ce92e7.__action_status__","label":"5 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a70bf3e5-0299-4cd1-bee5-a58e00ce92e7.state","label":"5 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"9a3b0918-a45a-4eca-84f2-8b7b54ce3ceb.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a3b0918-a45a-4eca-84f2-8b7b54ce3ceb.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a3b0918-a45a-4eca-84f2-8b7b54ce3ceb.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Order Request Record","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.customer_email","label":"Trigger - Record Created or Updated➛Order Request Record➛Customer Email","reference":"","reference_display":"Customer Email","type":"string","base_type":"string","parent_table_name":"x_1083337_eat_ordering_system","column_name":"customer_email"},{"name":"Created or Updated_1.current.customer_name","label":"Trigger - Record Created or Updated➛Order Request Record➛Customer Name","reference":"","reference_display":"Customer Name","type":"string","base_type":"string","parent_table_name":"x_1083337_eat_ordering_system","column_name":"customer_name"},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Order Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1083337_eat_ordering_system","column_name":"number"},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.record","label":"2 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.table_name","label":"2 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"802131fd-31a1-4554-b6d5-a843152cf1d1.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.record","label":"2 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.table_name","label":"2 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.status","label":"2 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.error_message","label":"2 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.__action_status__","label":"2 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e7cbfc2e-74a6-4466-acc5-87d1fa3e6219.__dont_treat_as_error__","label":"2 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Order Request Table","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"b92fc8bf-80c7-4f7f-8af6-04e299f53163.state","label":"3 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"b92fc8bf-80c7-4f7f-8af6-04e299f53163.__action_status__","label":"3 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b92fc8bf-80c7-4f7f-8af6-04e299f53163.__dont_treat_as_error__","label":"3 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.Record","label":"4 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.Table","label":"4 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c52b05fb-e507-485c-b79c-d4758d3d740c.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.Record","label":"6 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.Table","label":"6 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.__action_status__","label":"6 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92981b1a-803b-48ca-8919-1016e0d68c9b.__dont_treat_as_error__","label":"6 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.record","label":"8 - Update Record➛Order Request Record","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.table_name","label":"8 - Update Record➛Order Request Table","reference":"x_1083337_eat_ordering_system","reference_display":"Order Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c3c98a2-8b9f-4be1-9ded-343343272a61.email","label":"10 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c3c98a2-8b9f-4be1-9ded-343343272a61.__action_status__","label":"10 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6c3c98a2-8b9f-4be1-9ded-343343272a61.__dont_treat_as_error__","label":"10 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38deaf76-541a-4b98-871c-54267223c22d.Record","label":"12 - Create Task➛Order Task Record","reference":"x_1083337_eat_order_task","reference_display":"Order Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38deaf76-541a-4b98-871c-54267223c22d.Table","label":"12 - Create Task➛Order Task Table","reference":"x_1083337_eat_order_task","reference_display":"Order Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38deaf76-541a-4b98-871c-54267223c22d.__action_status__","label":"12 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38deaf76-541a-4b98-871c-54267223c22d.__dont_treat_as_error__","label":"12 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.delivery_type","label":"Trigger - Record Created or Updated➛Order Request Record➛Delivery Type","reference":"","reference_display":"Delivery Type","type":"choice","base_type":"choice","parent_table_name":"x_1083337_eat_ordering_system","column_name":"delivery_type","choices":[{"label":"Pickup","used":false,"image":"","rawLabel":"Pickup","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1083337_eat_ordering_system"}},{"label":"Delivery","used":false,"image":"","rawLabel":"Delivery","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1083337_eat_ordering_system"}}]}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Eat Order</name>
@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb59f1409737651080e3fef3a253af34</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Eat Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sys_hub_flow_fb59f1409737651080e3fef3a253af34</sys_update_name>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fb59f1409737651080e3fef3a253af34"/>
@@ -54,10 +54,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 10:11:01</sys_created_on>
         <sys_id>d027668c97b7651080e3fef3a253af07</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -375,10 +375,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 14:48:40</sys_created_on>
         <sys_id>1fa6a74497fb651080e3fef3a253af7f</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>b63a1b67-9b02-4ca3-b7e7-cc8064f7c8fe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1fa6a74497fb651080e3fef3a253af7f"/>
@@ -464,10 +464,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 04:36:13</sys_created_on>
         <sys_id>27ad2b6097bbe51080e3fef3a253afad</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>abb43acd-3793-4c3c-be16-43f3c6fde28c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27ad2b6097bbe51080e3fef3a253afad"/>
@@ -553,10 +553,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:30:06</sys_created_on>
         <sys_id>2fb744bc97fbe51080e3fef3a253afbe</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>97395c62-1fd4-43f9-8723-d55f7a65d9bc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2fb744bc97fbe51080e3fef3a253afbe"/>
@@ -596,10 +596,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:30:06</sys_created_on>
         <sys_id>ebb744bc97fbe51080e3fef3a253afc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-30 06:30:06</sys_updated_on>
-        <value>Order Delivered</value>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
+        <value/>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2fb744bc97fbe51080e3fef3a253afbe"/>
@@ -609,11 +609,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:30:06</sys_created_on>
         <sys_id>abb744bc97fbe51080e3fef3a253afc0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-30 06:30:06</sys_updated_on>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f2c01185-55c6-45d5-89c5-d7172af7755c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f2c01185-55c6-45d5-89c5-d7172af7755c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Order Request Record &amp;gt; Customer Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Customer Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f2c01185-55c6-45d5-89c5-d7172af7755c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f2c01185-55c6-45d5-89c5-d7172af7755c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f2c01185-55c6-45d5-89c5-d7172af7755c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Order Request Record &amp;gt; Customer Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Customer Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f2c01185-55c6-45d5-89c5-d7172af7755c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your Order&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3224b1db-46ad-4cdf-9ec3-d12545ed065c}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Order Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3224b1db-46ad-4cdf-9ec3-d12545ed065c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; is Delivered.&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Thankyou&lt;/p&gt;</value>
@@ -624,11 +624,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:30:06</sys_created_on>
         <sys_id>e3b744bc97fbe51080e3fef3a253afc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-30 06:30:06</sys_updated_on>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>{{Created or Updated_1.current.number}} Order is delivered.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>
@@ -683,10 +683,10 @@
         <sys_created_by>rupali.bansal</sys_created_by>
         <sys_created_on>2023-07-02 14:19:33</sys_created_on>
         <sys_id>3b5648ed9773611080e3fef3a253afb6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>a84043ab-35bf-4ba6-b1c9-486261d9fa24</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3b5648ed9773611080e3fef3a253afb6"/>
@@ -772,10 +772,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 14:39:51</sys_created_on>
         <sys_id>5ea4ef8097fb651080e3fef3a253af9a</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>c52b05fb-e507-485c-b79c-d4758d3d740c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5ea4ef8097fb651080e3fef3a253af9a"/>
@@ -861,10 +861,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 14:35:51</sys_created_on>
         <sys_id>6fb3ef4097fb651080e3fef3a253afab</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>a70bf3e5-0299-4cd1-bee5-a58e00ce92e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6fb3ef4097fb651080e3fef3a253afab"/>
@@ -950,10 +950,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 10:11:01</sys_created_on>
         <sys_id>9427668c97b7651080e3fef3a253af28</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>9a3b0918-a45a-4eca-84f2-8b7b54ce3ceb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9427668c97b7651080e3fef3a253af28"/>
@@ -965,10 +965,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 10:11:01</sys_created_on>
         <sys_id>1827668c97b7651080e3fef3a253af2c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-28 10:11:01</sys_updated_on>
-        <value>Order Recieved</value>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
+        <value/>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1006,14 +1006,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 10:11:01</sys_created_on>
         <sys_id>d427668c97b7651080e3fef3a253af2b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-28 13:15:57</sys_updated_on>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:23e577f7-f772-42b5-8dbb-867c1909bd33}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:23e577f7-f772-42b5-8dbb-867c1909bd33}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Order Request Record &amp;gt; Customer Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Customer Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_23e577f7-f772-42b5-8dbb-867c1909bd33" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Thankyou for placing the order.&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ca71e2f5-29db-4e82-80cf-b03f5bf9e52d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Order Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ca71e2f5-29db-4e82-80cf-b03f5bf9e52d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;We have received order .&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We have received your order .&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Thankyou&lt;/p&gt;</value>
     </sys_element_mapping>
@@ -1023,11 +1023,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 10:11:01</sys_created_on>
         <sys_id>1027668c97b7651080e3fef3a253af2c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-28 10:11:01</sys_updated_on>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>{{Created or Updated_1.current.number}} Order has been Recieved</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>
@@ -1082,10 +1082,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-28 14:34:57</sys_created_on>
         <sys_id>a283eb4097fb651080e3fef3a253afcf</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>b92fc8bf-80c7-4f7f-8af6-04e299f53163</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a283eb4097fb651080e3fef3a253afcf"/>
@@ -1171,10 +1171,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 05:07:17</sys_created_on>
         <sys_id>a6c473a897bbe51080e3fef3a253af4e</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>6c3c98a2-8b9f-4be1-9ded-343343272a61</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a6c473a897bbe51080e3fef3a253af4e"/>
@@ -1186,10 +1186,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 05:07:17</sys_created_on>
         <sys_id>2ac473a897bbe51080e3fef3a253af51</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 09:33:40</sys_updated_on>
-        <value>Order is Ready for Pick Up</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
+        <value/>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1243,11 +1243,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 05:07:17</sys_created_on>
         <sys_id>e2c473a897bbe51080e3fef3a253af51</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-30 05:07:17</sys_updated_on>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value> {{Created or Updated_1.current.number}} Order is Ready to Pick Up</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>
@@ -1302,10 +1302,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:30:06</sys_created_on>
         <sys_id>a7b744bc97fbe51080e3fef3a253afb6</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>3b946f1e-f401-4370-bc82-6840e2871e70</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a7b744bc97fbe51080e3fef3a253afb6"/>
@@ -1391,10 +1391,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:30:06</sys_created_on>
         <sys_id>afb744bc97fbe51080e3fef3a253afd1</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>65d037dc-d9de-4c1d-889f-2c951b81dfb7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=afb744bc97fbe51080e3fef3a253afd1"/>
@@ -1480,10 +1480,10 @@
         <sys_created_by>rupali.bansal</sys_created_by>
         <sys_created_on>2023-07-02 09:35:34</sys_created_on>
         <sys_id>c065031d977f211080e3fef3a253af4e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>b2d0aea2-5098-4b79-b805-76a94bd9ff3b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c065031d977f211080e3fef3a253af4e"/>
@@ -1568,10 +1568,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:20:24</sys_created_on>
         <sys_id>e185403c97fbe51080e3fef3a253afbd</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>38deaf76-541a-4b98-871c-54267223c22d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e185403c97fbe51080e3fef3a253afbd"/>
@@ -1621,10 +1621,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 04:36:13</sys_created_on>
         <sys_id>e3ad2b6097bbe51080e3fef3a253afb5</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>f07abeec-d144-414f-a960-9779ad45346a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e3ad2b6097bbe51080e3fef3a253afb5"/>
@@ -1719,10 +1719,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 05:07:17</sys_created_on>
         <sys_id>6ac473a897bbe51080e3fef3a253af43</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>426c990c-5019-4550-9299-dac1e216589e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1790,10 +1790,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-30 06:20:24</sys_created_on>
         <sys_id>ad85403c97fbe51080e3fef3a253afb6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_updated_by>rupali.bansal</sys_updated_by>
-        <sys_updated_on>2023-07-02 14:19:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 01:36:50</sys_updated_on>
         <ui_id>f88e8e63-6430-4788-a2dc-aa78cd9b1a7a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
