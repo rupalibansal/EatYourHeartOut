@@ -4,7 +4,7 @@
 $body-bg:#fff9f7;
 $state-success-text:#5cb85c;
 $sp-homepage-bg:#fff;
-$sp-navbar-divider-color:#455464;
+$sp-navbar-divider-color:#0E2954;
 $text-color:#015E70;
 $sp-logo-margin-y:.5rem;
 $navbar-inverse-link-hover-color:#ffffff;
@@ -44,14 +44,14 @@ $text-muted:#646567;
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-06-28 12:31:02</sys_created_on>
         <sys_id>05f6c7c0977b651080e3fef3a253af31</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>Eat Your Heart Out</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sp_portal_05f6c7c0977b651080e3fef3a253af31</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-03 13:45:11</sys_updated_on>
+        <sys_updated_on>2023-07-03 23:06:32</sys_updated_on>
         <theme display_value="Eat - High Contrast">bf1fcbc997f7691080e3fef3a253af43</theme>
         <title>Eat Your Heart Out</title>
         <ts_index_group/>

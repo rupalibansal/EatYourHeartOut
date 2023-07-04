@@ -11,20 +11,20 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="3">2dc6f99d973b211080e3fef3a253afdd</sp_column>
-        <sp_widget display_value="Image Link">86776e0453331300a699ddeeff7b12be</sp_widget>
+        <sp_widget display_value="Eat Image Link">48ac83b997bfa11080e3fef3a253af42</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
-        <sys_created_on>2023-07-02 00:13:20</sys_created_on>
-        <sys_id>c8b48ddd9777211080e3fef3a253af57</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Did you know?</sys_name>
+        <sys_created_on>2023-07-03 23:26:30</sys_created_on>
+        <sys_id>212d0bf997bfa11080e3fef3a253af6d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Did You Know?</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
-        <sys_update_name>sp_instance_c8b48ddd9777211080e3fef3a253af57</sys_update_name>
+        <sys_update_name>sp_instance_212d0bf997bfa11080e3fef3a253af6d</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-03 13:51:06</sys_updated_on>
-        <title>Did you know?</title>
+        <sys_updated_on>2023-07-03 23:32:35</sys_updated_on>
+        <title>Did You Know?</title>
         <url/>
         <widget_parameters><![CDATA[{
 	"image": {
@@ -32,12 +32,12 @@
 		"displayValue": "x_1083337_eat.DidYouKnow.jpg"
 	},
 	"title": {
-		"value": "Did you know?",
-		"displayValue": "Did you know?"
+		"value": "Did You Know?",
+		"displayValue": "Did You Know?"
 	},
 	"description": {
-		"value": "Articles about food and nutrition",
-		"displayValue": "Articles about food and nutrition"
+		"value": "Articles about food & nutrition",
+		"displayValue": "Articles about food & nutrition"
 	},
 	"link": {
 		"value": "/eat?id=kb_view2",
@@ -49,5 +49,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=c8b48ddd9777211080e3fef3a253af57"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=212d0bf997bfa11080e3fef3a253af6d"/>
 </record_update>
