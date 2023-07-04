@@ -27,7 +27,7 @@
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
         <name>Eat Pickup Location</name>
         <option_schema/>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
 	/* populate the 'data' object */
@@ -70,14 +70,14 @@
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-07-01 07:57:40</sys_created_on>
         <sys_id>4065ed4d9733691080e3fef3a253afbf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Eat Pickup Location</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sp_widget_4065ed4d9733691080e3fef3a253afbf</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-01 08:00:35</sys_updated_on>
+        <sys_updated_on>2023-07-04 14:45:18</sys_updated_on>
         <template><![CDATA[<div class="panel panel-{{options.color}} b" rect="rect" ng-show="data.canView">
 
   <div class="panel-heading">

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Eat Home Page - Container 7</name>
+        <order>7</order>
+        <sp_page display_value="eat_homepage">b4a81e419737691080e3fef3a253afde</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-01 15:01:57</sys_created_on>
+        <sys_id>0b768b8197f7691080e3fef3a253afa3</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Eat Home Page - Container 7</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sp_container_0b768b8197f7691080e3fef3a253afa3</sys_update_name>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 22:35:27</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</application>
+        <file_path/>
+        <instance_id>76bde7d3db3fa7449df22f17d4961900</instance_id>
+        <instance_name>dev73677</instance_name>
+        <name>sp_container_0b768b8197f7691080e3fef3a253afa3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Eat Home Page - Container 7</name><order>7</order><sp_page display_value="eat_homepage">b4a81e419737691080e3fef3a253afde</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>shey.delacruz</sys_created_by><sys_created_on>2023-07-01 15:01:57</sys_created_on><sys_id>0b768b8197f7691080e3fef3a253afa3</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Eat Home Page - Container 7</sys_name><sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package><sys_policy/><sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope><sys_update_name>sp_container_0b768b8197f7691080e3fef3a253afa3</sys_update_name><sys_updated_by>shey.delacruz</sys_updated_by><sys_updated_on>2023-07-02 22:35:27</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1423544284</payload_hash>
+        <record_name>Eat Home Page - Container 7</record_name>
+        <reverted_from/>
+        <source>6b53cd509733a51080e3fef3a253aff6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-02 22:35:27</sys_created_on>
+        <sys_id>84e7b16d973b611080e3fef3a253af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18918bf261d0000001</sys_recorded_at>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-02 22:35:27</sys_updated_on>
+        <type>Container</type>
+        <update_guid>cce7b16db73b6110c9bf34b73e790276</update_guid>
+        <update_guid_history>cce7b16db73b6110c9bf34b73e790276:1423544284,8f1c7115777b2110aa52d5c3bdf72c13:-710425541,813a3591877b211021d2fa08bc307416:1450571930,ffb6f99d123b2110c9a2f8e985f94368:-710425541,1e568551bab721103f272aab5e8cb5bc:1450571930,533ef859da772110519ef5d7a60eb042:-710425541,c20b5f09163b69109352cf672a26f044:1450571930,28985385d03b6910f936376b3989291e:-710425541,96db0f093af76910b97274a916d14c6e:1450571930,5dab8709ecf769107f422a2ced9c5899:-710425541,cb768b810af769100687b2cec1aa81a4:1450571930</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Eat Home Page - Container 7">a040620a973fe11080e3fef3a253aff5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shey.delacruz</sys_created_by>
+        <sys_created_on>2023-07-04 14:48:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>2863280402a64940832bfd9bd0a16010</sys_id>
+        <sys_metadata>0b768b8197f7691080e3fef3a253afa3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Eat Home Page - Container 7</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_scope_delete display_value="">a40e0342bd8c42a49fd79255a4ecb384</sys_scope_delete>
+        <sys_update_name>sp_container_0b768b8197f7691080e3fef3a253afa3</sys_update_name>
+        <sys_update_version display_value="sp_container_0b768b8197f7691080e3fef3a253afa3">84e7b16d973b611080e3fef3a253af77</sys_update_version>
+        <sys_updated_by>shey.delacruz</sys_updated_by>
+        <sys_updated_on>2023-07-04 14:48:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

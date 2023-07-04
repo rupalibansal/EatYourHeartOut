@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -28,7 +28,8 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-  
+    
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
@@ -36,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dd70cc4297b3e11080e3fef3a253af08</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Set Order Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
@@ -44,7 +45,7 @@
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sys_script_dd70cc4297b3e11080e3fef3a253af08</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-04 03:27:05</sys_updated_on>
+        <sys_updated_on>2023-07-04 12:34:50</sys_updated_on>
         <template>order_receivedSAMEASsys_created_on^EQ</template>
         <when>before</when>
     </sys_script>
