@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Melbourne,Australia</center_address>
+        <center_latitude>-37.8136276</center_latitude>
+        <center_longitude>144.9630576</center_longitude>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>5</initial_zoom>
+        <name>x_1083337_eat_RupaliTest</name>
+        <overview>true</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[var lats = [-37.81139244820893, -34.92830099387613, -33.878826532879046];
+var longs = [144.96358622803237, 138.59520471469924, 151.20664222550087];
+
+
+
+for (locItems = 0; locItems < 3; locItems++) {
+    var gr = new GlideRecord("x_1083337_eat_customer");
+    var item = map.addItem(gr);
+    item.longitude = longs[locItems];
+    item.latitude = lats[locItems];
+    //      item.dialog_title = gr.getDisplayValue();
+    item.icon_width = "16";
+    item.icon_height = "16";
+
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>RupaliTest</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>rupali.bansal</sys_created_by>
+        <sys_created_on>2023-07-04 13:51:56</sys_created_on>
+        <sys_id>3620d28697fbe11080e3fef3a253af46</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1083337_eat_RupaliTest</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>cmn_map_page_3620d28697fbe11080e3fef3a253af46</sys_update_name>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-07-04 13:54:27</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>
