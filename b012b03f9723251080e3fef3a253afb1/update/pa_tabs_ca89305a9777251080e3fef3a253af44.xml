@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Cloud Kitchen Summar - New Tab 2">8a89b81a9777251080e3fef3a253af61</canvas_page>
+        <name>Cloud Kitchen Summary - Weekly</name>
+        <page display_value="PA Cloud Kitchen Summary - Weekly">4e89b81a9777251080e3fef3a253af60</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>nishi.shaw</sys_created_by>
+        <sys_created_on>2023-07-05 01:58:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca89305a9777251080e3fef3a253af44</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cloud Kitchen Summary - Weekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>pa_tabs_ca89305a9777251080e3fef3a253af44</sys_update_name>
+        <sys_updated_by>nishi.shaw</sys_updated_by>
+        <sys_updated_on>2023-07-05 02:00:19</sys_updated_on>
+    </pa_tabs>
+</record_update>

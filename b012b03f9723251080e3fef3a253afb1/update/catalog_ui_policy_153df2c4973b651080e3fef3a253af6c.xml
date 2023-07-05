@@ -7,7 +7,7 @@
         <applies_target_record>true</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:703db2c4973b651080e3fef3a253afd1=2^EQ</catalog_conditions>
-        <catalog_item display_value="Copy of Cloud Kitchen">603d7e84973b651080e3fef3a253afb0</catalog_item>
+        <catalog_item/>
         <conditions/>
         <description/>
         <global>true</global>

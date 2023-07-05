@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Eat Your Heart Out Weekly Order Summary">418620e497bfa51080e3fef3a253af60</report_id>
+        <report_id display_value="Eat Your Heart Out Weekly Order Summary Chart">418620e497bfa51080e3fef3a253af60</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>nishi.shaw</sys_created_by>
         <sys_created_on>2023-06-29 14:06:04</sys_created_on>

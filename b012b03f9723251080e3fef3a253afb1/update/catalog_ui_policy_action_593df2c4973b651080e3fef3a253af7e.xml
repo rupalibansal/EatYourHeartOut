@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Copy of Cloud Kitchen">603d7e84973b651080e3fef3a253afb0</catalog_item>
+        <catalog_item/>
         <catalog_variable>IO:f43db2c4973b651080e3fef3a253afac</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>

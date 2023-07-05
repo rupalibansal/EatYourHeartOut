@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
-        <legacy_page display_value="PA Cloud Kitchen Report - New Tab">cae0ec2097bfa51080e3fef3a253af3e</legacy_page>
+        <legacy_page display_value="PA Cloud Kitchen Report - Daily">cae0ec2097bfa51080e3fef3a253af3e</legacy_page>
         <name>PA Cloud Kitchen Report - New Tab</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>nishi.shaw</sys_created_by>

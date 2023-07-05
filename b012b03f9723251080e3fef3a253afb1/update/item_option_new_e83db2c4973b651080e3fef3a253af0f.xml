@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Copy of Cloud Kitchen">603d7e84973b651080e3fef3a253afb0</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -100,6 +100,7 @@
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
+        <x_1083337_eat_reference/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=e83db2c4973b651080e3fef3a253af0f"/>
     <fx_price action="delete_multiple" query="id=e83db2c4973b651080e3fef3a253af0f"/>

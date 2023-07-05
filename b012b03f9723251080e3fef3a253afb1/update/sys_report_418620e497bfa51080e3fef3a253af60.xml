@@ -29,7 +29,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column/>
+        <column>active</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Nishi Shaw">3fce847a9767211080e3fef3a253afd2</created_by_user>
@@ -47,7 +47,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>menu_item</field>
         <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
-        <filter/>
+        <filter table="x_1083337_eat_ordering_system">state=3<item display_value="Order Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+        </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"$COUNT_FIELD$,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -79,16 +80,16 @@
         <report_drilldown/>
         <report_source/>
         <roles/>
-        <row/>
+        <row>active</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>null</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>false</show_chart_data_label>
+        <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
@@ -97,7 +98,7 @@
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
-        <show_zero>true</show_zero>
+        <show_zero>false</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
@@ -106,21 +107,21 @@
         <sys_created_by>nishi.shaw</sys_created_by>
         <sys_created_on>2023-06-29 14:06:04</sys_created_on>
         <sys_id>418620e497bfa51080e3fef3a253af60</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Eat Your Heart Out Weekly Order Summary</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Eat Your Heart Out Weekly Order Summary Chart</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>sys_report_418620e497bfa51080e3fef3a253af60</sys_update_name>
         <sys_updated_by>nishi.shaw</sys_updated_by>
-        <sys_updated_on>2023-06-30 04:43:51</sys_updated_on>
+        <sys_updated_on>2023-07-05 02:19:50</sys_updated_on>
         <table>x_1083337_eat_ordering_system</table>
-        <title>Eat Your Heart Out Weekly Order Summary</title>
+        <title>Eat Your Heart Out Weekly Order Summary Chart</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>single_score</type>
+        <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>

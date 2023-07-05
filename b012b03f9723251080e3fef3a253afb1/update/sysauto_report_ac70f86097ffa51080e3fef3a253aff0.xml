@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list>admin@cloudkitchen.com.au</address_list>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <group_list name="Eat Manager">0ca5361c97f7a51080e3fef3a253afe8</group_list>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Cloud Kitchen Orders Monthly Sales Report</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>true</omit_if_no_records>
+        <output_type>PDF</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Cloud Kitchen Order Summary">38c36ca097bfa51080e3fef3a253afac</report>
+        <report_body><![CDATA[<p><em><span style="font-size: 12pt;">Hi,</span></em></p>
+<p><em><span style="font-size: 12pt;">Please find Cloud Kitchen Orders Monthly Report. </span><span style="font-size: 12pt;">The report contains order summary of sales last month.</span></em></p>
+<p><em><span style="font-size: 12pt;">Thanks.</span></em></p>
+<p><em><span style="font-size: 12pt;">System Admin</span></em></p>]]></report_body>
+        <report_title>Cloud Kitchen Orders Monthly Sales Report.</report_title>
+        <run_as display_value="Nishi Shaw">3fce847a9767211080e3fef3a253afd2</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-06-29 14:33:33</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>monthly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>nishi.shaw</sys_created_by>
+        <sys_created_on>2023-06-29 14:49:27</sys_created_on>
+        <sys_id>ac70f86097ffa51080e3fef3a253aff0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cloud Kitchen Orders Monthly Sales Report</sys_name>
+        <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
+        <sys_update_name>sysauto_report_ac70f86097ffa51080e3fef3a253aff0</sys_update_name>
+        <sys_updated_by>rupali.bansal</sys_updated_by>
+        <sys_updated_on>2023-07-02 02:03:09</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list/>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>
