@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
     <cmn_map_page action="INSERT_OR_UPDATE">
-        <center_address>Victoria, Australia</center_address>
-        <center_latitude>-36.9847807</center_latitude>
-        <center_longitude>143.3906074</center_longitude>
+        <center_address>75 Square,Caroline Springs VIC 1111</center_address>
+        <center_latitude>-37.7431281</center_latitude>
+        <center_longitude>144.7356782</center_longitude>
         <controls_size>large</controls_size>
         <coordinates_retrieved_on/>
         <disable_map_controls/>
         <disable_nav_bar>false</disable_nav_bar>
         <filter/>
-        <initial_zoom>5</initial_zoom>
-        <name>x_1083337_eat_Future _Store_Locations</name>
+        <initial_zoom>13</initial_zoom>
+        <name>x_1083337_eat_Delivery_Locations</name>
         <overview>true</overview>
         <refresh_on_zoom>true</refresh_on_zoom>
         <roles/>
@@ -38,12 +38,12 @@
 //         item.icon_height = "16";
 //------
 
-var lats = [-37.73139244820893, -34.92830099387613, -33.878826532879046];
-var longs = [144.74358622803237, 138.59520471469924, 151.20664222550087];
+var lats = [-37.73139244820893, -37.74096247513482,-37.735513950911475,-37.72722135800353,-37.73684925518305 ];
+var longs = [144.74358622803237,144.7398269364193, 144.73181440566705,144.73270715701594,144.79265414828674];
 
 
 
-for (locItems = 0; locItems < 3; locItems++) {
+for (locItems = 0; locItems < 5; locItems++) {
     var gr = new GlideRecord("x_1083337_eat_customer");
     var item = map.addItem(gr);
     item.longitude = longs[locItems];
@@ -53,22 +53,22 @@ for (locItems = 0; locItems < 3; locItems++) {
     item.icon_height = "16";
 
 }]]></script>
-        <show_device_location>true</show_device_location>
-        <suffix>Future _Store_Locations</suffix>
+        <show_device_location>false</show_device_location>
+        <suffix>Delivery_Locations</suffix>
         <sys_class_name>cmn_map_page</sys_class_name>
         <sys_created_by>shey.delacruz</sys_created_by>
         <sys_created_on>2023-07-02 16:31:21</sys_created_on>
         <sys_id>6f546ced97f3611080e3fef3a253afde</sys_id>
-        <sys_mod_count>41</sys_mod_count>
-        <sys_name>x_1083337_eat_Future _Store_Locations</sys_name>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>x_1083337_eat_Delivery_Locations</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>cmn_map_page_6f546ced97f3611080e3fef3a253afde</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-02 22:33:43</sys_updated_on>
+        <sys_updated_on>2023-07-05 08:33:32</sys_updated_on>
         <type>normal</type>
-        <type_selection>buttons</type_selection>
+        <type_selection>menu</type_selection>
         <use_advanced_configuration>false</use_advanced_configuration>
     </cmn_map_page>
 </record_update>

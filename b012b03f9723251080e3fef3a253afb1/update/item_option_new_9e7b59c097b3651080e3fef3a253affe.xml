@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>delivery_address</name>
-        <order>1100</order>
+        <order>900</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -73,16 +73,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>rupali.bansal</sys_created_by>
-        <sys_created_on>2023-07-01 08:46:01</sys_created_on>
+        <sys_created_on>2023-07-05 00:14:32</sys_created_on>
         <sys_id>9e7b59c097b3651080e3fef3a253affe</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Delivery Address</sys_name>
         <sys_package display_value="Eat your Heart Out " source="x_1083337_eat">b012b03f9723251080e3fef3a253afb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eat your Heart Out ">b012b03f9723251080e3fef3a253afb1</sys_scope>
         <sys_update_name>item_option_new_9e7b59c097b3651080e3fef3a253affe</sys_update_name>
         <sys_updated_by>shey.delacruz</sys_updated_by>
-        <sys_updated_on>2023-07-04 02:57:12</sys_updated_on>
+        <sys_updated_on>2023-07-05 12:33:25</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
