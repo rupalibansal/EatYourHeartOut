@@ -1,6 +1,6 @@
 # Eat Your Heart Out - A Cloud Kitchen
 
-
+![alt text](https://github.com/rupalibansal/EatYourHeartOut/blob/master/Service%20Portal-%20ScreenShot1.png?raw=true)
 
 ## Project Summary
 
