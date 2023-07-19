@@ -15,6 +15,8 @@ Customer service portal
 Automation – of workflow so every is updated
  Retire unpopular food on their menu
  Customer satisfaction
+
+ 
 Tools & Technology : Google Suite , Google Drive, File Bin, Microsoft PowerPoint presentation, Snagit and Canva
-Outputs just scroll on these pages as I mention
+
 ServicePortal, Reports, Digitized forms, Dashboards, Email Notifications
